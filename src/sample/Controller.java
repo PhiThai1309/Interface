@@ -49,26 +49,26 @@ public class Controller implements Initializable {
     private List<News> getNews(){
         List<News> ls = new ArrayList<>();
 
-        News news = new News();
-        news.setHeader("This is a News header");
-        news.setTime(123);
-        news.setImgSrc("C:\\Users\\phima\\IdeaProjects\\JavaFX\\src\\image\\breaking-news-1576197867.jpg");
-        news.setSource("RMIT News");
-        ls.add(news);
-
-        news = new News();
-        news.setHeader("This is a News header");
-        news.setTime(123);
-        news.setImgSrc("C:\\Users\\phima\\IdeaProjects\\JavaFX\\src\\image\\breaking-news-1576197867.jpg");
-        news.setSource("RMIT News");
-        ls.add(news);
-
-        news = new News();
-        news.setHeader("This is a News header");
-        news.setTime(123);
-        news.setImgSrc("C:\\Users\\phima\\IdeaProjects\\JavaFX\\src\\image\\breaking-news-1576197867.jpg");
-        news.setSource("RMIT News");
-        ls.add(news);
+//        News news = new News();
+//        news.setHeader("This is a News header");
+//        news.setTime(123);
+//        news.setImgSrc("C:\\Users\\phima\\IdeaProjects\\JavaFX\\src\\image\\breaking-news-1576197867.jpg");
+//        news.setSource("RMIT News");
+//        ls.add(news);
+//
+//        news = new News();
+//        news.setHeader("This is a News header");
+//        news.setTime(123);
+//        news.setImgSrc("C:\\Users\\phima\\IdeaProjects\\JavaFX\\src\\image\\breaking-news-1576197867.jpg");
+//        news.setSource("RMIT News");
+//        ls.add(news);
+//
+//        news = new News();
+//        news.setHeader("This is a News header");
+//        news.setTime(123);
+//        news.setImgSrc("C:\\Users\\phima\\IdeaProjects\\JavaFX\\src\\image\\breaking-news-1576197867.jpg");
+//        news.setSource("RMIT News");
+//        ls.add(news);
 
         return ls;
     }
