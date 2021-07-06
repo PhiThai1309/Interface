@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="433.0" styleClass="shadow" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.NewsController">
+   <children>
+      <ImageView fx:id="img" fitHeight="250.0" fitWidth="433.0" pickOnBounds="true" />
+      <VBox alignment="BOTTOM_CENTER" prefHeight="250.0" prefWidth="433.0" styleClass="gradient" stylesheets="@../css/style.css">
+         <children>
+            <HBox prefHeight="37.0" prefWidth="433.0">
+               <children>
+                  <Label fx:id="source" prefHeight="38.0" prefWidth="131.0" text="Source" />
+                  <Label fx:id="time" prefHeight="45.0" prefWidth="110.0" text="Time" />
+               </children>
+            </HBox>
+            <Label fx:id="header" prefHeight="97.0" prefWidth="439.0" text="Header">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Label>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets left="20.0" right="20.0" />
+         </padding>
+      </VBox>
+   </children>
+</Pane>
