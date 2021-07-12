@@ -17,7 +17,7 @@
    <top>
       <HBox opacity="0.86" prefHeight="86.0" prefWidth="1024.0" styleClass="grey-background" stylesheets="@../css/style.css" BorderPane.alignment="CENTER">
          <children>
-            <HBox alignment="CENTER" prefHeight="105.0" prefWidth="160.0" spacing="10.0" HBox.hgrow="ALWAYS">
+            <HBox alignment="CENTER" prefHeight="105.0" prefWidth="160.0" spacing="10.0" stylesheets="@../css/style.css" HBox.hgrow="ALWAYS">
                <children>
                   <ImageView fitHeight="40.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -57,7 +57,7 @@
    <center>
       <VBox prefHeight="200.0" prefWidth="100.0" stylesheets="@../css/style.css" BorderPane.alignment="CENTER">
          <children>
-            <ScrollPane prefHeight="475.0" prefWidth="1024.0" styleClass="dark-background" stylesheets="@../css/style.css" VBox.vgrow="ALWAYS">
+            <ScrollPane prefHeight="483.0" prefWidth="1024.0" styleClass="dark-background" stylesheets="@../css/style.css" VBox.vgrow="ALWAYS">
                <content>
                   <GridPane fx:id="newsGrid" prefHeight="50.0" prefWidth="120.0">
                     <rowConstraints>
@@ -66,29 +66,29 @@
                   </GridPane>
                </content>
             </ScrollPane>
-            <HBox alignment="CENTER" prefHeight="34.0" prefWidth="1024.0">
+            <HBox alignment="BOTTOM_CENTER" prefHeight="0.0" prefWidth="1024.0" VBox.vgrow="ALWAYS">
                <children>
-                  <Button contentDisplay="CENTER" minWidth="40.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="40.0" styleClass="dark-background" stylesheets="@../css/style.css" text="1" textFill="WHITE" HBox.hgrow="ALWAYS">
+                  <Button contentDisplay="CENTER" minWidth="53.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="53.0" styleClass="dark-background" stylesheets="@../css/style.css" text="1" textFill="WHITE" HBox.hgrow="ALWAYS">
                      <font>
                         <Font size="10.0" />
                      </font>
                   </Button>
-                  <Button contentDisplay="CENTER" minWidth="38.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="38.0" styleClass="dark-background" stylesheets="@../css/style.css" text="2" textFill="WHITE">
+                  <Button minWidth="53.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="53.0" styleClass="dark-background" stylesheets="@../css/style.css" text="2" textFill="WHITE">
                      <font>
                         <Font size="10.0" />
                      </font>
                   </Button>
-                  <Button contentDisplay="CENTER" minWidth="40.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="40.0" styleClass="dark-background" stylesheets="@../css/style.css" text="3" textFill="WHITE">
+                  <Button contentDisplay="CENTER" minWidth="53.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="53.0" styleClass="dark-background" stylesheets="@../css/style.css" text="3" textFill="WHITE">
                      <font>
                         <Font size="10.0" />
                      </font>
                   </Button>
-                  <Button contentDisplay="CENTER" layoutX="549.0" layoutY="10.0" minWidth="40.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="40.0" styleClass="dark-background" stylesheets="@../css/style.css" text="4" textFill="WHITE">
+                  <Button contentDisplay="CENTER" layoutX="549.0" layoutY="10.0" minWidth="53.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="53.0" styleClass="dark-background" stylesheets="@../css/style.css" text="4" textFill="WHITE">
                      <font>
                         <Font size="10.0" />
                      </font>
                   </Button>
-                  <Button contentDisplay="CENTER" layoutX="575.0" layoutY="10.0" minWidth="40.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="40.0" styleClass="dark-background" stylesheets="@../css/style.css" text="5" textFill="WHITE">
+                  <Button contentDisplay="CENTER" layoutX="575.0" layoutY="10.0" minWidth="53.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="53.0" styleClass="dark-background" stylesheets="@../css/style.css" text="5" textFill="WHITE">
                      <font>
                         <Font size="10.0" />
                      </font>

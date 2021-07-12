@@ -17,6 +17,8 @@ public class Main extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("interface.fxml"));
 
         Scene scene = new Scene(root);
+
+        scene.getStylesheets().add("C:\\Users\\phima\\IdeaProjects\\JavaFX\\src\\css\\style.css");
         stage.setTitle("News Application");
         stage.setResizable(true);
 //        stage.getIcons().add(new Image("C:\\Users\\phima\\IdeaProjects\\JavaFX\\src\\sample\\book.jpg"));
