@@ -1,0 +1,12 @@
+.dark-background{
+    -fx-background-color: #252525;
+}
+.light-black-background{
+    -fx-background-color: #414141;
+}
+.red-theme{
+    -fx-background-color: #FF0000;
+}
+.dark-red-theme{
+    -fx-background-color: #AF0404;
+}

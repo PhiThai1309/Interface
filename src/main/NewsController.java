@@ -1,12 +1,10 @@
-package sample;
+package main;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import model.News;
-
-import java.util.Objects;
 
 public class NewsController {
     @FXML
