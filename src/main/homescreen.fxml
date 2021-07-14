@@ -5,7 +5,6 @@
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.ButtonBar?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -90,44 +89,7 @@
                <graphic>
                   <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="167.0" prefWidth="300.0" styleClass="shadow" stylesheets="@../css/style.css">
                      <children>
-                        <ImageView fx:id="img1" fitHeight="167.0" fitWidth="300.0" pickOnBounds="true">
-                           <image>
-                              <Image url="@../image/sampleimg(1).jpg" />
-                           </image>
-                        </ImageView>
-                        <VBox alignment="BOTTOM_CENTER" prefHeight="167.0" prefWidth="300.0" styleClass="gradient" stylesheets="@../css/style.css">
-                           <children>
-                              <HBox prefHeight="37.0" prefWidth="433.0">
-                                 <children>
-                                    <Label fx:id="source1" prefHeight="38.0" prefWidth="131.0" text="Source" textFill="WHITE" />
-                                    <Label fx:id="time1" prefHeight="45.0" prefWidth="110.0" text="Time" textFill="WHITE" />
-                                 </children>
-                              </HBox>
-                              <Label fx:id="header1" prefHeight="97.0" prefWidth="439.0" text="Header" textFill="WHITE">
-                                 <font>
-                                    <Font name="System Bold" size="21.0" />
-                                 </font>
-                              </Label>
-                           </children>
-                           <opaqueInsets>
-                              <Insets />
-                           </opaqueInsets>
-                           <padding>
-                              <Insets left="20.0" right="20.0" />
-                           </padding>
-                        </VBox>
-                     </children>
-                  </Pane>
-               </graphic>
-            </Button>
-            <Button mnemonicParsing="false" prefHeight="167.0" prefWidth="300.0" styleClass="dark-background" stylesheets="@../css/MainTheme.css" textFill="TRANSPARENT">
-               <cursor>
-                  <Cursor fx:constant="CLOSED_HAND" />
-               </cursor>
-               <graphic>
-                  <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="167.0" prefWidth="300.0" styleClass="shadow" stylesheets="@../css/style.css">
-                     <children>
-                        <ImageView fx:id="img" fitHeight="167.0" fitWidth="300.0" pickOnBounds="true">
+                        <ImageView fx:id="img12" fitHeight="167.0" fitWidth="300.0" pickOnBounds="true">
                            <image>
                               <Image url="@../image/sampleimg.jpg" />
                            </image>
@@ -136,15 +98,17 @@
                            <children>
                               <HBox prefHeight="37.0" prefWidth="433.0">
                                  <children>
-                                    <Label fx:id="source" prefHeight="38.0" prefWidth="131.0" text="Source" textFill="WHITE" />
-                                    <Label fx:id="time" prefHeight="45.0" prefWidth="110.0" text="Time" textFill="WHITE" />
+                                    <Label fx:id="source12" prefHeight="35.0" prefWidth="144.0" text="Source" textFill="WHITE" />
+                                    <Label fx:id="time12" alignment="CENTER_RIGHT" prefHeight="35.0" prefWidth="121.0" text="Time" textFill="WHITE" />
                                  </children>
                               </HBox>
-                              <Label fx:id="header" prefHeight="97.0" prefWidth="439.0" text="Header" textFill="WHITE">
+                              <Pane prefHeight="39.0" prefWidth="260.0" />
+                              <Label fx:id="header12" prefHeight="87.0" prefWidth="260.0" text="Header" textFill="WHITE">
                                  <font>
                                     <Font name="System Bold" size="21.0" />
                                  </font>
                               </Label>
+                              <Pane prefHeight="5.0" prefWidth="260.0" />
                            </children>
                            <opaqueInsets>
                               <Insets />
@@ -156,12 +120,15 @@
                      </children>
                   </Pane>
                </graphic>
+               <cursor>
+                  <Cursor fx:constant="CLOSED_HAND" />
+               </cursor>
             </Button>
-            <Button layoutX="173.0" layoutY="165.0" mnemonicParsing="false" styleClass="dark-background" stylesheets="@../css/MainTheme.css" textFill="TRANSPARENT">
+            <Button layoutX="355.0" layoutY="166.0" mnemonicParsing="false" styleClass="dark-background" stylesheets="@../css/MainTheme.css" textFill="TRANSPARENT">
                <graphic>
                   <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="167.0" prefWidth="300.0" styleClass="shadow" stylesheets="@../css/style.css">
                      <children>
-                        <ImageView fx:id="img11" fitHeight="167.0" fitWidth="300.0" pickOnBounds="true">
+                        <ImageView fx:id="img121" fitHeight="167.0" fitWidth="300.0" pickOnBounds="true">
                            <image>
                               <Image url="@../image/sampleimg(1).jpg" />
                            </image>
@@ -170,15 +137,17 @@
                            <children>
                               <HBox prefHeight="37.0" prefWidth="433.0">
                                  <children>
-                                    <Label fx:id="source11" prefHeight="38.0" prefWidth="131.0" text="Source" textFill="WHITE" />
-                                    <Label fx:id="time11" prefHeight="45.0" prefWidth="110.0" text="Time" textFill="WHITE" />
+                                    <Label fx:id="source121" prefHeight="35.0" prefWidth="144.0" text="Source" textFill="WHITE" />
+                                    <Label fx:id="time121" alignment="CENTER_RIGHT" prefHeight="35.0" prefWidth="121.0" text="Time" textFill="WHITE" />
                                  </children>
                               </HBox>
-                              <Label fx:id="header11" prefHeight="97.0" prefWidth="439.0" text="Header" textFill="WHITE">
+                              <Pane prefHeight="39.0" prefWidth="260.0" />
+                              <Label fx:id="header121" prefHeight="87.0" prefWidth="260.0" text="Header" textFill="WHITE">
                                  <font>
                                     <Font name="System Bold" size="21.0" />
                                  </font>
                               </Label>
+                              <Pane prefHeight="5.0" prefWidth="260.0" />
                            </children>
                            <opaqueInsets>
                               <Insets />
@@ -190,29 +159,65 @@
                      </children>
                   </Pane>
                </graphic>
+               <cursor>
+                  <Cursor fx:constant="CLOSED_HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="539.0" layoutY="166.0" mnemonicParsing="false" styleClass="dark-background" stylesheets="@../css/MainTheme.css" textFill="TRANSPARENT">
+               <graphic>
+                  <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="167.0" prefWidth="300.0" styleClass="shadow" stylesheets="@../css/style.css">
+                     <children>
+                        <ImageView fx:id="img1211" fitHeight="167.0" fitWidth="300.0" pickOnBounds="true" />
+                        <VBox alignment="BOTTOM_CENTER" prefHeight="167.0" prefWidth="300.0" styleClass="gradient" stylesheets="@../css/style.css">
+                           <children>
+                              <HBox prefHeight="37.0" prefWidth="433.0">
+                                 <children>
+                                    <Label fx:id="source1211" prefHeight="35.0" prefWidth="144.0" text="Source" textFill="WHITE" />
+                                    <Label fx:id="time1211" alignment="CENTER_RIGHT" prefHeight="35.0" prefWidth="121.0" text="Time" textFill="WHITE" />
+                                 </children>
+                              </HBox>
+                              <Pane prefHeight="39.0" prefWidth="260.0" />
+                              <Label fx:id="header1211" prefHeight="87.0" prefWidth="260.0" text="Header" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="21.0" />
+                                 </font>
+                              </Label>
+                              <Pane prefHeight="5.0" prefWidth="260.0" />
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <padding>
+                              <Insets left="20.0" right="20.0" />
+                           </padding>
+                        </VBox>
+                     </children>
+                  </Pane>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="CLOSED_HAND" />
+               </cursor>
             </Button>
             <Button layoutX="355.0" layoutY="263.0" mnemonicParsing="false" styleClass="dark-background" stylesheets="@../css/MainTheme.css" textFill="TRANSPARENT">
                <graphic>
                   <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="167.0" prefWidth="300.0" styleClass="shadow" stylesheets="@../css/style.css">
                      <children>
-                        <ImageView fx:id="img111" fitHeight="167.0" fitWidth="300.0" pickOnBounds="true">
-                           <image>
-                              <Image url="@../image/sampleimg(1).jpg" />
-                           </image>
-                        </ImageView>
+                        <ImageView fx:id="img12111" fitHeight="167.0" fitWidth="300.0" pickOnBounds="true" />
                         <VBox alignment="BOTTOM_CENTER" prefHeight="167.0" prefWidth="300.0" styleClass="gradient" stylesheets="@../css/style.css">
                            <children>
                               <HBox prefHeight="37.0" prefWidth="433.0">
                                  <children>
-                                    <Label fx:id="source111" prefHeight="38.0" prefWidth="131.0" text="Source" textFill="WHITE" />
-                                    <Label fx:id="time111" prefHeight="45.0" prefWidth="110.0" text="Time" textFill="WHITE" />
+                                    <Label fx:id="source12111" prefHeight="35.0" prefWidth="144.0" text="Source" textFill="WHITE" />
+                                    <Label fx:id="time12111" alignment="CENTER_RIGHT" prefHeight="35.0" prefWidth="121.0" text="Time" textFill="WHITE" />
                                  </children>
                               </HBox>
-                              <Label fx:id="header111" prefHeight="97.0" prefWidth="439.0" text="Header" textFill="WHITE">
+                              <Pane prefHeight="39.0" prefWidth="260.0" />
+                              <Label fx:id="header12111" prefHeight="87.0" prefWidth="260.0" text="Header" textFill="WHITE">
                                  <font>
                                     <Font name="System Bold" size="21.0" />
                                  </font>
                               </Label>
+                              <Pane prefHeight="5.0" prefWidth="260.0" />
                            </children>
                            <opaqueInsets>
                               <Insets />
@@ -224,16 +229,12 @@
                      </children>
                   </Pane>
                </graphic>
+               <cursor>
+                  <Cursor fx:constant="CLOSED_HAND" />
+               </cursor>
             </Button>
          </children>
       </FlowPane>
-      <HBox maxHeight="40.0" prefHeight="40.0" prefWidth="1007.0" styleClass="light-black-background" stylesheets="@../css/MainTheme.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
-         <children>
-            <ButtonBar prefHeight="40.0" prefWidth="1038.0" HBox.hgrow="ALWAYS">
-              <buttons>
-                <Button mnemonicParsing="false" text="Button" />
-              </buttons>
-            </ButtonBar>
-         </children></HBox>
+      <HBox maxHeight="40.0" prefHeight="40.0" prefWidth="1007.0" styleClass="light-black-background" stylesheets="@../css/MainTheme.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
    </children>
 </AnchorPane>
