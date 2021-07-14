@@ -19,7 +19,7 @@
 <?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" styleClass="dark-red-theme" stylesheets="@../css/MainTheme.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" styleClass="dark-red-theme" stylesheets="@../css/MainTheme.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.MenuControl">
    <children>
       <HBox prefHeight="95.0" prefWidth="1007.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
          <stylesheets>
@@ -33,7 +33,7 @@
          <children>
             <HBox alignment="CENTER" prefHeight="107.0" prefWidth="194.0" HBox.hgrow="ALWAYS">
                <children>
-                  <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="71.0" prefWidth="56.0" styleClass="light-black-background" stylesheets="@../css/MainTheme.css" textFill="TRANSPARENT">
+                  <Button fx:id="menu" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#menuCategories" prefHeight="71.0" prefWidth="56.0" styleClass="light-black-background" stylesheets="@../css/MainTheme.css" textFill="TRANSPARENT">
                      <graphic>
                         <ImageView blendMode="SCREEN" fitHeight="46.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -99,13 +99,6 @@
                               </ImageView>
                               <VBox alignment="BOTTOM_CENTER" prefHeight="167.0" prefWidth="300.0" styleClass="gradient" stylesheets="@../css/style.css">
                                  <children>
-                                    <HBox prefHeight="37.0" prefWidth="433.0">
-                                       <children>
-                                          <Label fx:id="source12" prefHeight="35.0" prefWidth="144.0" text="Source" textFill="WHITE" />
-                                          <Label fx:id="time12" alignment="CENTER_RIGHT" prefHeight="35.0" prefWidth="121.0" text="Time" textFill="WHITE" />
-                                       </children>
-                                    </HBox>
-                                    <Pane prefHeight="39.0" prefWidth="260.0" />
                                     <Label fx:id="header12" prefHeight="87.0" prefWidth="260.0" text="Header" textFill="WHITE">
                                        <font>
                                           <Font name="System Bold" size="21.0" />
@@ -138,13 +131,6 @@
                               </ImageView>
                               <VBox alignment="BOTTOM_CENTER" prefHeight="167.0" prefWidth="300.0" styleClass="gradient" stylesheets="@../css/style.css">
                                  <children>
-                                    <HBox prefHeight="37.0" prefWidth="433.0">
-                                       <children>
-                                          <Label fx:id="source121" prefHeight="35.0" prefWidth="144.0" text="Source" textFill="WHITE" />
-                                          <Label fx:id="time121" alignment="CENTER_RIGHT" prefHeight="35.0" prefWidth="121.0" text="Time" textFill="WHITE" />
-                                       </children>
-                                    </HBox>
-                                    <Pane prefHeight="39.0" prefWidth="260.0" />
                                     <Label fx:id="header121" prefHeight="87.0" prefWidth="260.0" text="Header" textFill="WHITE">
                                        <font>
                                           <Font name="System Bold" size="21.0" />
@@ -177,13 +163,6 @@
                               </ImageView>
                               <VBox alignment="BOTTOM_CENTER" prefHeight="167.0" prefWidth="300.0" styleClass="gradient" stylesheets="@../css/style.css">
                                  <children>
-                                    <HBox prefHeight="37.0" prefWidth="433.0">
-                                       <children>
-                                          <Label fx:id="source1211" prefHeight="35.0" prefWidth="144.0" text="Source" textFill="WHITE" />
-                                          <Label fx:id="time1211" alignment="CENTER_RIGHT" prefHeight="35.0" prefWidth="121.0" text="Time" textFill="WHITE" />
-                                       </children>
-                                    </HBox>
-                                    <Pane prefHeight="39.0" prefWidth="260.0" />
                                     <Label fx:id="header1211" prefHeight="87.0" prefWidth="260.0" text="Header" textFill="WHITE">
                                        <font>
                                           <Font name="System Bold" size="21.0" />
@@ -216,13 +195,6 @@
                               </ImageView>
                               <VBox alignment="BOTTOM_CENTER" prefHeight="167.0" prefWidth="300.0" styleClass="gradient" stylesheets="@../css/style.css">
                                  <children>
-                                    <HBox prefHeight="37.0" prefWidth="433.0">
-                                       <children>
-                                          <Label fx:id="source12111" prefHeight="35.0" prefWidth="144.0" text="Source" textFill="WHITE" />
-                                          <Label fx:id="time12111" alignment="CENTER_RIGHT" prefHeight="35.0" prefWidth="121.0" text="Time" textFill="WHITE" />
-                                       </children>
-                                    </HBox>
-                                    <Pane prefHeight="39.0" prefWidth="260.0" />
                                     <Label fx:id="header12111" prefHeight="87.0" prefWidth="260.0" text="Header" textFill="WHITE">
                                        <font>
                                           <Font name="System Bold" size="21.0" />
@@ -255,13 +227,6 @@
                               </ImageView>
                               <VBox alignment="BOTTOM_CENTER" prefHeight="167.0" prefWidth="300.0" styleClass="gradient" stylesheets="@../css/style.css">
                                  <children>
-                                    <HBox prefHeight="37.0" prefWidth="433.0">
-                                       <children>
-                                          <Label fx:id="source121111" prefHeight="35.0" prefWidth="144.0" text="Source" textFill="WHITE" />
-                                          <Label fx:id="time121111" alignment="CENTER_RIGHT" prefHeight="35.0" prefWidth="121.0" text="Time" textFill="WHITE" />
-                                       </children>
-                                    </HBox>
-                                    <Pane prefHeight="39.0" prefWidth="260.0" />
                                     <Label fx:id="header121111" prefHeight="87.0" prefWidth="260.0" text="Header" textFill="WHITE">
                                        <font>
                                           <Font name="System Bold" size="21.0" />
@@ -294,13 +259,6 @@
                               </ImageView>
                               <VBox alignment="BOTTOM_CENTER" prefHeight="167.0" prefWidth="300.0" styleClass="gradient" stylesheets="@../css/style.css">
                                  <children>
-                                    <HBox prefHeight="37.0" prefWidth="433.0">
-                                       <children>
-                                          <Label fx:id="source1211111" prefHeight="35.0" prefWidth="144.0" text="Source" textFill="WHITE" />
-                                          <Label fx:id="time1211111" alignment="CENTER_RIGHT" prefHeight="35.0" prefWidth="121.0" text="Time" textFill="WHITE" />
-                                       </children>
-                                    </HBox>
-                                    <Pane prefHeight="39.0" prefWidth="260.0" />
                                     <Label fx:id="header1211111" prefHeight="87.0" prefWidth="260.0" text="Header" textFill="WHITE">
                                        <font>
                                           <Font name="System Bold" size="21.0" />
@@ -333,13 +291,6 @@
                               </ImageView>
                               <VBox alignment="BOTTOM_CENTER" prefHeight="167.0" prefWidth="300.0" styleClass="gradient" stylesheets="@../css/style.css">
                                  <children>
-                                    <HBox prefHeight="37.0" prefWidth="433.0">
-                                       <children>
-                                          <Label fx:id="source12111111" prefHeight="35.0" prefWidth="144.0" text="Source" textFill="WHITE" />
-                                          <Label fx:id="time12111111" alignment="CENTER_RIGHT" prefHeight="35.0" prefWidth="121.0" text="Time" textFill="WHITE" />
-                                       </children>
-                                    </HBox>
-                                    <Pane prefHeight="39.0" prefWidth="260.0" />
                                     <Label fx:id="header12111111" prefHeight="87.0" prefWidth="260.0" text="Header" textFill="WHITE">
                                        <font>
                                           <Font name="System Bold" size="21.0" />
@@ -372,13 +323,6 @@
                               </ImageView>
                               <VBox alignment="BOTTOM_CENTER" prefHeight="167.0" prefWidth="300.0" styleClass="gradient" stylesheets="@../css/style.css">
                                  <children>
-                                    <HBox prefHeight="37.0" prefWidth="433.0">
-                                       <children>
-                                          <Label fx:id="source121111111" prefHeight="35.0" prefWidth="144.0" text="Source" textFill="WHITE" />
-                                          <Label fx:id="time121111111" alignment="CENTER_RIGHT" prefHeight="35.0" prefWidth="121.0" text="Time" textFill="WHITE" />
-                                       </children>
-                                    </HBox>
-                                    <Pane prefHeight="39.0" prefWidth="260.0" />
                                     <Label fx:id="header121111111" prefHeight="87.0" prefWidth="260.0" text="Header" textFill="WHITE">
                                        <font>
                                           <Font name="System Bold" size="21.0" />
@@ -411,13 +355,6 @@
                               </ImageView>
                               <VBox alignment="BOTTOM_CENTER" prefHeight="167.0" prefWidth="300.0" styleClass="gradient" stylesheets="@../css/style.css">
                                  <children>
-                                    <HBox prefHeight="37.0" prefWidth="433.0">
-                                       <children>
-                                          <Label fx:id="source1211111111" prefHeight="35.0" prefWidth="144.0" text="Source" textFill="WHITE" />
-                                          <Label fx:id="time1211111111" alignment="CENTER_RIGHT" prefHeight="35.0" prefWidth="121.0" text="Time" textFill="WHITE" />
-                                       </children>
-                                    </HBox>
-                                    <Pane prefHeight="39.0" prefWidth="260.0" />
                                     <Label fx:id="header1211111111" prefHeight="87.0" prefWidth="260.0" text="Header" textFill="WHITE">
                                        <font>
                                           <Font name="System Bold" size="21.0" />

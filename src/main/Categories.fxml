@@ -14,33 +14,28 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" styleClass="dark-background" stylesheets="@../css/MainTheme.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" styleClass="dark-background" stylesheets="@../css/MainTheme.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.MenuControl">
    <children>
-      <HBox alignment="CENTER_LEFT" prefHeight="95.0" prefWidth="1000.0" spacing="20.0" stylesheets="@../css/MainTheme.css" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <HBox alignment="CENTER_LEFT" prefHeight="80.0" prefWidth="1000.0" spacing="20.0" styleClass="shadow" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <Pane prefHeight="97.0" prefWidth="12.0" />
-            <Button mnemonicParsing="false" styleClass="dark-background" stylesheets="@../css/MainTheme.css">
+            <Button graphicTextGap="20.0" mnemonicParsing="false" onAction="#menuHome" styleClass="dark-background" stylesheets="@../css/MainTheme.css" text="CATEGORISE" textFill="WHITE">
                <graphic>
-                  <ImageView fitHeight="93.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="52.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../image/baseline_menu_white_48dp.png" />
+                        <Image url="@../image/baseline_chevron_left_white_48dp.png" />
                      </image>
                   </ImageView>
                </graphic>
-            </Button>
-            <Button mnemonicParsing="false" prefHeight="93.0" prefWidth="303.0" styleClass="dark-background" stylesheets="@../css/MainTheme.css">
-               <graphic>
-                  <Label text="CATEROGIZE" textFill="WHITE">
-                     <font>
-                        <Font name="Bookman Old Style" size="42.0" />
-                     </font>
-                  </Label>
-               </graphic>
+               <font>
+                  <Font name="Bookman Old Style Bold" size="40.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </Button>
          </children>
       </HBox>
-      <ScrollPane fitToWidth="true" layoutY="97.0" prefHeight="605.0" prefWidth="1000.0" styleClass="dark-background" stylesheets="@../css/MainTheme.css" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="95.0">
+      <ScrollPane fitToWidth="true" layoutY="97.0" prefHeight="605.0" prefWidth="1000.0" styleClass="dark-background" stylesheets="@../css/MainTheme.css" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="80.0">
          <content>
             <FlowPane hgap="20.0" prefHeight="599.0" prefWidth="994.0" styleClass="dark-background" stylesheets="@../css/MainTheme.css" vgap="20.0">
                <children>
@@ -48,7 +43,7 @@
                      <graphic>
                         <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="154.0" prefWidth="262.0" styleClass="shadow" stylesheets="@../css/style.css">
                            <children>
-                              <ImageView fx:id="img1" fitHeight="138.0" fitWidth="274.0" pickOnBounds="true" />
+                              <ImageView fx:id="img1" fitHeight="150.0" fitWidth="260.0" pickOnBounds="true" />
                               <VBox alignment="BOTTOM_CENTER" prefHeight="150.0" prefWidth="261.0" styleClass="gradient" stylesheets="@../css/style.css">
                                  <children>
                                     <Label fx:id="header1" alignment="CENTER" prefHeight="75.0" prefWidth="260.0" text="NEW" textFill="WHITE">
@@ -76,7 +71,7 @@
                      <graphic>
                         <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="154.0" prefWidth="262.0" styleClass="shadow" stylesheets="@../css/style.css">
                            <children>
-                              <ImageView fx:id="img11" fitHeight="138.0" fitWidth="274.0" pickOnBounds="true" />
+                              <ImageView fx:id="img11" fitHeight="150.0" fitWidth="263.0" pickOnBounds="true" />
                               <VBox alignment="BOTTOM_CENTER" prefHeight="150.0" prefWidth="261.0" styleClass="gradient" stylesheets="@../css/style.css">
                                  <children>
                                     <Label fx:id="header11" alignment="CENTER" prefHeight="75.0" prefWidth="260.0" text="COVID" textFill="WHITE">
@@ -104,7 +99,7 @@
                      <graphic>
                         <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="154.0" prefWidth="262.0" styleClass="shadow" stylesheets="@../css/style.css">
                            <children>
-                              <ImageView fx:id="img111" fitHeight="138.0" fitWidth="274.0" pickOnBounds="true" />
+                              <ImageView fx:id="img111" fitHeight="152.0" fitWidth="263.0" pickOnBounds="true" />
                               <VBox alignment="BOTTOM_CENTER" prefHeight="150.0" prefWidth="261.0" styleClass="gradient" stylesheets="@../css/style.css">
                                  <children>
                                     <Label fx:id="header111" alignment="CENTER" prefHeight="75.0" prefWidth="260.0" text="POLITICS" textFill="WHITE">
@@ -132,7 +127,7 @@
                      <graphic>
                         <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="154.0" prefWidth="262.0" styleClass="shadow" stylesheets="@../css/style.css">
                            <children>
-                              <ImageView fx:id="img1111" fitHeight="138.0" fitWidth="274.0" pickOnBounds="true" />
+                              <ImageView fx:id="img1111" fitHeight="151.0" fitWidth="263.0" pickOnBounds="true" />
                               <VBox alignment="BOTTOM_CENTER" prefHeight="150.0" prefWidth="261.0" styleClass="gradient" stylesheets="@../css/style.css">
                                  <children>
                                     <Label fx:id="header1111" alignment="CENTER" prefHeight="75.0" prefWidth="260.0" text="BUSINESS" textFill="WHITE">
@@ -160,7 +155,7 @@
                      <graphic>
                         <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="154.0" prefWidth="262.0" styleClass="shadow" stylesheets="@../css/style.css">
                            <children>
-                              <ImageView fx:id="img11111" fitHeight="138.0" fitWidth="274.0" pickOnBounds="true" />
+                              <ImageView fx:id="img11111" fitHeight="150.0" fitWidth="261.0" pickOnBounds="true" />
                               <VBox alignment="BOTTOM_CENTER" prefHeight="150.0" prefWidth="261.0" styleClass="gradient" stylesheets="@../css/style.css">
                                  <children>
                                     <Label fx:id="header11111" alignment="CENTER" prefHeight="75.0" prefWidth="260.0" text="TECHNOLOGY" textFill="WHITE">
@@ -188,7 +183,7 @@
                      <graphic>
                         <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="154.0" prefWidth="262.0" styleClass="shadow" stylesheets="@../css/style.css">
                            <children>
-                              <ImageView fx:id="img111111" fitHeight="138.0" fitWidth="274.0" pickOnBounds="true" />
+                              <ImageView fx:id="img111111" fitHeight="150.0" fitWidth="263.0" pickOnBounds="true" />
                               <VBox alignment="BOTTOM_CENTER" prefHeight="150.0" prefWidth="261.0" styleClass="gradient" stylesheets="@../css/style.css">
                                  <children>
                                     <Label fx:id="header111111" alignment="CENTER" prefHeight="75.0" prefWidth="260.0" text="HEALTH" textFill="WHITE">
@@ -216,7 +211,7 @@
                      <graphic>
                         <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="154.0" prefWidth="262.0" styleClass="shadow" stylesheets="@../css/style.css">
                            <children>
-                              <ImageView fx:id="img1111111" fitHeight="138.0" fitWidth="274.0" pickOnBounds="true" />
+                              <ImageView fx:id="img1111111" fitHeight="152.0" fitWidth="262.0" pickOnBounds="true" />
                               <VBox alignment="BOTTOM_CENTER" prefHeight="150.0" prefWidth="261.0" styleClass="gradient" stylesheets="@../css/style.css">
                                  <children>
                                     <Label fx:id="header1111111" alignment="CENTER" prefHeight="75.0" prefWidth="260.0" text="SPORTS" textFill="WHITE">
@@ -244,7 +239,7 @@
                      <graphic>
                         <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="154.0" prefWidth="262.0" styleClass="shadow" stylesheets="@../css/style.css">
                            <children>
-                              <ImageView fx:id="img11111111" fitHeight="138.0" fitWidth="274.0" pickOnBounds="true" />
+                              <ImageView fx:id="img11111111" fitHeight="151.0" fitWidth="263.0" pickOnBounds="true" />
                               <VBox alignment="BOTTOM_CENTER" prefHeight="150.0" prefWidth="261.0" styleClass="gradient" stylesheets="@../css/style.css">
                                  <children>
                                     <Label fx:id="header11111111" alignment="CENTER" prefHeight="75.0" prefWidth="260.0" text="ENTERTAINMENT" textFill="WHITE">
@@ -272,7 +267,7 @@
                      <graphic>
                         <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="154.0" prefWidth="262.0" styleClass="shadow" stylesheets="@../css/style.css">
                            <children>
-                              <ImageView fx:id="img111111111" fitHeight="138.0" fitWidth="274.0" pickOnBounds="true" />
+                              <ImageView fx:id="img111111111" fitHeight="151.0" fitWidth="263.0" pickOnBounds="true" />
                               <VBox alignment="BOTTOM_CENTER" prefHeight="150.0" prefWidth="261.0" styleClass="gradient" stylesheets="@../css/style.css">
                                  <children>
                                     <Label fx:id="header111111111" alignment="CENTER" prefHeight="75.0" prefWidth="260.0" text="WORLD" textFill="WHITE">
@@ -300,7 +295,7 @@
                      <graphic>
                         <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="154.0" prefWidth="262.0" styleClass="shadow" stylesheets="@../css/style.css">
                            <children>
-                              <ImageView fx:id="img1111111111" fitHeight="138.0" fitWidth="274.0" pickOnBounds="true" />
+                              <ImageView fx:id="img1111111111" fitHeight="149.0" fitWidth="262.0" pickOnBounds="true" />
                               <VBox alignment="BOTTOM_CENTER" prefHeight="150.0" prefWidth="261.0" styleClass="gradient" stylesheets="@../css/style.css">
                                  <children>
                                     <Label fx:id="header1111111111" alignment="CENTER" prefHeight="75.0" prefWidth="260.0" text="OTHERS" textFill="WHITE">
