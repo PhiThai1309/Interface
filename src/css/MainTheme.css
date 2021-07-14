@@ -10,3 +10,10 @@
 .dark-red-theme{
     -fx-background-color: #AF0404;
 }
+-pastel-red-theme{
+    -fx-background-color: #ff4f4f;
+}
+-transparent-theme{
+    -fx-background-color: rgba(37, 37, 37, 0);
+}
+

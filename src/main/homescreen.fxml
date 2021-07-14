@@ -2,16 +2,24 @@
 
 <?import java.lang.String?>
 <?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.FlowPane?>
 <?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="622.0" prefWidth="1007.0" styleClass="dark-background" stylesheets="@../css/MainTheme.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="622.0" prefWidth="1007.0" styleClass="dark-red-theme" stylesheets="@../css/MainTheme.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <HBox prefHeight="95.0" prefWidth="1007.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
          <stylesheets>
@@ -31,36 +39,201 @@
                            <image>
                               <Image url="@../image/baseline_menu_white_48dp.png" />
                            </image>
+                           <cursor>
+                              <Cursor fx:constant="CLOSED_HAND" />
+                           </cursor>
                         </ImageView>
                      </graphic>
-                  </Button>
-                  <Button alignment="CENTER" contentDisplay="CENTER" layoutX="15.0" layoutY="28.0" mnemonicParsing="false" prefHeight="71.0" prefWidth="92.0" styleClass="light-black-background" stylesheets="@../css/MainTheme.css" textFill="TRANSPARENT">
-                     <graphic>
-                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="63.0" prefWidth="77.0" text="MENU" textFill="WHITE">
-                           <font>
-                              <Font size="26.0" />
-                           </font>
-                        </Label>
-                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="CLOSED_HAND" />
+                     </cursor>
                   </Button>
                </children>
             </HBox>
-            <Label alignment="CENTER" prefHeight="107.0" prefWidth="679.0" stylesheets="@../css/MainTheme.css" text="NEWS" textFill="#ff0404" HBox.hgrow="ALWAYS">
+            <Label alignment="CENTER" prefHeight="95.0" prefWidth="822.0" stylesheets="@../css/MainTheme.css" text="NEWS" HBox.hgrow="ALWAYS">
                <font>
                   <Font name="Book Antiqua Bold" size="55.0" />
-               </font></Label>
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0" startX="0.23809526988438195" startY="0.07301584879557294">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="1.0" green="0.22839505970478058" blue="0.22839505970478058" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill></Label>
             <HBox alignment="CENTER" prefHeight="107.0" prefWidth="181.0" HBox.hgrow="ALWAYS">
                <children>
                   <ImageView blendMode="SCREEN" fitHeight="46.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../image/baseline_search_white_48dp.png" />
                      </image>
+                     <cursor>
+                        <Cursor fx:constant="CLOSED_HAND" />
+                     </cursor>
                   </ImageView>
                </children>
             </HBox>
          </children>
       </HBox>
-      <FlowPane alignment="CENTER" layoutY="95.0" prefHeight="485.0" prefWidth="1007.0" styleClass="dark-background" stylesheets="@../css/MainTheme.css" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="95.0" />
-      <HBox prefHeight="36.0" prefWidth="1007.0" styleClass="light-black-background" stylesheets="@../css/MainTheme.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="580.0" />
+      <FlowPane alignment="CENTER" columnHalignment="CENTER" hgap="50.0" layoutY="95.0" prefHeight="487.0" prefWidth="1007.0" styleClass="dark-background" stylesheets="@../css/MainTheme.css" vgap="20.0" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="95.0">
+         <children>
+            <Button mnemonicParsing="false" styleClass="dark-background" stylesheets="@../css/MainTheme.css" textFill="TRANSPARENT">
+               <graphic>
+                  <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="167.0" prefWidth="300.0" styleClass="shadow" stylesheets="@../css/style.css">
+                     <children>
+                        <ImageView fx:id="img1" fitHeight="167.0" fitWidth="300.0" pickOnBounds="true">
+                           <image>
+                              <Image url="@../image/sampleimg(1).jpg" />
+                           </image>
+                        </ImageView>
+                        <VBox alignment="BOTTOM_CENTER" prefHeight="167.0" prefWidth="300.0" styleClass="gradient" stylesheets="@../css/style.css">
+                           <children>
+                              <HBox prefHeight="37.0" prefWidth="433.0">
+                                 <children>
+                                    <Label fx:id="source1" prefHeight="38.0" prefWidth="131.0" text="Source" textFill="WHITE" />
+                                    <Label fx:id="time1" prefHeight="45.0" prefWidth="110.0" text="Time" textFill="WHITE" />
+                                 </children>
+                              </HBox>
+                              <Label fx:id="header1" prefHeight="97.0" prefWidth="439.0" text="Header" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="21.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <padding>
+                              <Insets left="20.0" right="20.0" />
+                           </padding>
+                        </VBox>
+                     </children>
+                  </Pane>
+               </graphic>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="167.0" prefWidth="300.0" styleClass="dark-background" stylesheets="@../css/MainTheme.css" textFill="TRANSPARENT">
+               <cursor>
+                  <Cursor fx:constant="CLOSED_HAND" />
+               </cursor>
+               <graphic>
+                  <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="167.0" prefWidth="300.0" styleClass="shadow" stylesheets="@../css/style.css">
+                     <children>
+                        <ImageView fx:id="img" fitHeight="167.0" fitWidth="300.0" pickOnBounds="true">
+                           <image>
+                              <Image url="@../image/sampleimg.jpg" />
+                           </image>
+                        </ImageView>
+                        <VBox alignment="BOTTOM_CENTER" prefHeight="167.0" prefWidth="300.0" styleClass="gradient" stylesheets="@../css/style.css">
+                           <children>
+                              <HBox prefHeight="37.0" prefWidth="433.0">
+                                 <children>
+                                    <Label fx:id="source" prefHeight="38.0" prefWidth="131.0" text="Source" textFill="WHITE" />
+                                    <Label fx:id="time" prefHeight="45.0" prefWidth="110.0" text="Time" textFill="WHITE" />
+                                 </children>
+                              </HBox>
+                              <Label fx:id="header" prefHeight="97.0" prefWidth="439.0" text="Header" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="21.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <padding>
+                              <Insets left="20.0" right="20.0" />
+                           </padding>
+                        </VBox>
+                     </children>
+                  </Pane>
+               </graphic>
+            </Button>
+            <Button layoutX="173.0" layoutY="165.0" mnemonicParsing="false" styleClass="dark-background" stylesheets="@../css/MainTheme.css" textFill="TRANSPARENT">
+               <graphic>
+                  <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="167.0" prefWidth="300.0" styleClass="shadow" stylesheets="@../css/style.css">
+                     <children>
+                        <ImageView fx:id="img11" fitHeight="167.0" fitWidth="300.0" pickOnBounds="true">
+                           <image>
+                              <Image url="@../image/sampleimg(1).jpg" />
+                           </image>
+                        </ImageView>
+                        <VBox alignment="BOTTOM_CENTER" prefHeight="167.0" prefWidth="300.0" styleClass="gradient" stylesheets="@../css/style.css">
+                           <children>
+                              <HBox prefHeight="37.0" prefWidth="433.0">
+                                 <children>
+                                    <Label fx:id="source11" prefHeight="38.0" prefWidth="131.0" text="Source" textFill="WHITE" />
+                                    <Label fx:id="time11" prefHeight="45.0" prefWidth="110.0" text="Time" textFill="WHITE" />
+                                 </children>
+                              </HBox>
+                              <Label fx:id="header11" prefHeight="97.0" prefWidth="439.0" text="Header" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="21.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <padding>
+                              <Insets left="20.0" right="20.0" />
+                           </padding>
+                        </VBox>
+                     </children>
+                  </Pane>
+               </graphic>
+            </Button>
+            <Button layoutX="355.0" layoutY="263.0" mnemonicParsing="false" styleClass="dark-background" stylesheets="@../css/MainTheme.css" textFill="TRANSPARENT">
+               <graphic>
+                  <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="167.0" prefWidth="300.0" styleClass="shadow" stylesheets="@../css/style.css">
+                     <children>
+                        <ImageView fx:id="img111" fitHeight="167.0" fitWidth="300.0" pickOnBounds="true">
+                           <image>
+                              <Image url="@../image/sampleimg(1).jpg" />
+                           </image>
+                        </ImageView>
+                        <VBox alignment="BOTTOM_CENTER" prefHeight="167.0" prefWidth="300.0" styleClass="gradient" stylesheets="@../css/style.css">
+                           <children>
+                              <HBox prefHeight="37.0" prefWidth="433.0">
+                                 <children>
+                                    <Label fx:id="source111" prefHeight="38.0" prefWidth="131.0" text="Source" textFill="WHITE" />
+                                    <Label fx:id="time111" prefHeight="45.0" prefWidth="110.0" text="Time" textFill="WHITE" />
+                                 </children>
+                              </HBox>
+                              <Label fx:id="header111" prefHeight="97.0" prefWidth="439.0" text="Header" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="21.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <padding>
+                              <Insets left="20.0" right="20.0" />
+                           </padding>
+                        </VBox>
+                     </children>
+                  </Pane>
+               </graphic>
+            </Button>
+         </children>
+      </FlowPane>
+      <HBox maxHeight="40.0" prefHeight="40.0" prefWidth="1007.0" styleClass="light-black-background" stylesheets="@../css/MainTheme.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <ButtonBar prefHeight="40.0" prefWidth="1038.0" HBox.hgrow="ALWAYS">
+              <buttons>
+                <Button mnemonicParsing="false" text="Button" />
+              </buttons>
+            </ButtonBar>
+         </children></HBox>
    </children>
 </AnchorPane>
