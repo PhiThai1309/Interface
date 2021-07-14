@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" styleClass="dark-background" stylesheets="@../css/MainTheme.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox alignment="CENTER_LEFT" prefHeight="95.0" prefWidth="1000.0" spacing="20.0" stylesheets="@../css/MainTheme.css" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Pane prefHeight="97.0" prefWidth="12.0" />
+            <Button mnemonicParsing="false" styleClass="dark-background" stylesheets="@../css/MainTheme.css">
+               <graphic>
+                  <ImageView fitHeight="93.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/baseline_menu_white_48dp.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="93.0" prefWidth="303.0" styleClass="dark-background" stylesheets="@../css/MainTheme.css">
+               <graphic>
+                  <Label text="CATEROGIZE" textFill="WHITE">
+                     <font>
+                        <Font name="Bookman Old Style" size="42.0" />
+                     </font>
+                  </Label>
+               </graphic>
+            </Button>
+         </children>
+      </HBox>
+      <ScrollPane fitToWidth="true" layoutY="97.0" prefHeight="605.0" prefWidth="1000.0" styleClass="dark-background" stylesheets="@../css/MainTheme.css" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="95.0">
+         <content>
+            <FlowPane hgap="20.0" prefHeight="599.0" prefWidth="994.0" styleClass="dark-background" stylesheets="@../css/MainTheme.css" vgap="20.0">
+               <children>
+                  <Button alignment="CENTER" mnemonicParsing="false" prefHeight="172.0" prefWidth="283.0" styleClass="dark-background" stylesheets="@../css/MainTheme.css" textFill="TRANSPARENT">
+                     <graphic>
+                        <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="154.0" prefWidth="262.0" styleClass="shadow" stylesheets="@../css/style.css">
+                           <children>
+                              <ImageView fx:id="img1" fitHeight="138.0" fitWidth="274.0" pickOnBounds="true" />
+                              <VBox alignment="BOTTOM_CENTER" prefHeight="150.0" prefWidth="261.0" styleClass="gradient" stylesheets="@../css/style.css">
+                                 <children>
+                                    <Label fx:id="header1" alignment="CENTER" prefHeight="75.0" prefWidth="260.0" text="NEW" textFill="WHITE">
+                                       <font>
+                                          <Font name="Bookman Old Style Bold" size="24.0" />
+                                       </font>
+                                    </Label>
+                                    <Pane prefHeight="5.0" prefWidth="260.0" />
+                                 </children>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <padding>
+                                    <Insets left="20.0" right="20.0" />
+                                 </padding>
+                              </VBox>
+                           </children>
+                        </Pane>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button alignment="CENTER" layoutX="15.0" layoutY="30.0" mnemonicParsing="false" prefHeight="172.0" prefWidth="283.0" styleClass="dark-background" stylesheets="@../css/MainTheme.css" textFill="TRANSPARENT">
+                     <graphic>
+                        <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="154.0" prefWidth="262.0" styleClass="shadow" stylesheets="@../css/style.css">
+                           <children>
+                              <ImageView fx:id="img11" fitHeight="138.0" fitWidth="274.0" pickOnBounds="true" />
+                              <VBox alignment="BOTTOM_CENTER" prefHeight="150.0" prefWidth="261.0" styleClass="gradient" stylesheets="@../css/style.css">
+                                 <children>
+                                    <Label fx:id="header11" alignment="CENTER" prefHeight="75.0" prefWidth="260.0" text="COVID" textFill="WHITE">
+                                       <font>
+                                          <Font name="Bookman Old Style Bold" size="24.0" />
+                                       </font>
+                                    </Label>
+                                    <Pane prefHeight="5.0" prefWidth="260.0" />
+                                 </children>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <padding>
+                                    <Insets left="20.0" right="20.0" />
+                                 </padding>
+                              </VBox>
+                           </children>
+                        </Pane>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button alignment="CENTER" layoutX="319.0" layoutY="30.0" mnemonicParsing="false" prefHeight="172.0" prefWidth="283.0" styleClass="dark-background" stylesheets="@../css/MainTheme.css" textFill="TRANSPARENT">
+                     <graphic>
+                        <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="154.0" prefWidth="262.0" styleClass="shadow" stylesheets="@../css/style.css">
+                           <children>
+                              <ImageView fx:id="img111" fitHeight="138.0" fitWidth="274.0" pickOnBounds="true" />
+                              <VBox alignment="BOTTOM_CENTER" prefHeight="150.0" prefWidth="261.0" styleClass="gradient" stylesheets="@../css/style.css">
+                                 <children>
+                                    <Label fx:id="header111" alignment="CENTER" prefHeight="75.0" prefWidth="260.0" text="POLITICS" textFill="WHITE">
+                                       <font>
+                                          <Font name="Bookman Old Style Bold" size="24.0" />
+                                       </font>
+                                    </Label>
+                                    <Pane prefHeight="5.0" prefWidth="260.0" />
+                                 </children>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <padding>
+                                    <Insets left="20.0" right="20.0" />
+                                 </padding>
+                              </VBox>
+                           </children>
+                        </Pane>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button alignment="CENTER" layoutX="622.0" layoutY="30.0" mnemonicParsing="false" prefHeight="172.0" prefWidth="283.0" styleClass="dark-background" stylesheets="@../css/MainTheme.css" textFill="TRANSPARENT">
+                     <graphic>
+                        <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="154.0" prefWidth="262.0" styleClass="shadow" stylesheets="@../css/style.css">
+                           <children>
+                              <ImageView fx:id="img1111" fitHeight="138.0" fitWidth="274.0" pickOnBounds="true" />
+                              <VBox alignment="BOTTOM_CENTER" prefHeight="150.0" prefWidth="261.0" styleClass="gradient" stylesheets="@../css/style.css">
+                                 <children>
+                                    <Label fx:id="header1111" alignment="CENTER" prefHeight="75.0" prefWidth="260.0" text="BUSINESS" textFill="WHITE">
+                                       <font>
+                                          <Font name="Bookman Old Style Bold" size="24.0" />
+                                       </font>
+                                    </Label>
+                                    <Pane prefHeight="5.0" prefWidth="260.0" />
+                                 </children>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <padding>
+                                    <Insets left="20.0" right="20.0" />
+                                 </padding>
+                              </VBox>
+                           </children>
+                        </Pane>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button alignment="CENTER" layoutX="15.0" layoutY="222.0" mnemonicParsing="false" prefHeight="172.0" prefWidth="283.0" styleClass="dark-background" stylesheets="@../css/MainTheme.css" textFill="TRANSPARENT">
+                     <graphic>
+                        <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="154.0" prefWidth="262.0" styleClass="shadow" stylesheets="@../css/style.css">
+                           <children>
+                              <ImageView fx:id="img11111" fitHeight="138.0" fitWidth="274.0" pickOnBounds="true" />
+                              <VBox alignment="BOTTOM_CENTER" prefHeight="150.0" prefWidth="261.0" styleClass="gradient" stylesheets="@../css/style.css">
+                                 <children>
+                                    <Label fx:id="header11111" alignment="CENTER" prefHeight="75.0" prefWidth="260.0" text="TECHNOLOGY" textFill="WHITE">
+                                       <font>
+                                          <Font name="Bookman Old Style Bold" size="24.0" />
+                                       </font>
+                                    </Label>
+                                    <Pane prefHeight="5.0" prefWidth="260.0" />
+                                 </children>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <padding>
+                                    <Insets left="20.0" right="20.0" />
+                                 </padding>
+                              </VBox>
+                           </children>
+                        </Pane>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button alignment="CENTER" layoutX="319.0" layoutY="222.0" mnemonicParsing="false" prefHeight="172.0" prefWidth="283.0" styleClass="dark-background" stylesheets="@../css/MainTheme.css" textFill="TRANSPARENT">
+                     <graphic>
+                        <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="154.0" prefWidth="262.0" styleClass="shadow" stylesheets="@../css/style.css">
+                           <children>
+                              <ImageView fx:id="img111111" fitHeight="138.0" fitWidth="274.0" pickOnBounds="true" />
+                              <VBox alignment="BOTTOM_CENTER" prefHeight="150.0" prefWidth="261.0" styleClass="gradient" stylesheets="@../css/style.css">
+                                 <children>
+                                    <Label fx:id="header111111" alignment="CENTER" prefHeight="75.0" prefWidth="260.0" text="HEALTH" textFill="WHITE">
+                                       <font>
+                                          <Font name="Bookman Old Style Bold" size="24.0" />
+                                       </font>
+                                    </Label>
+                                    <Pane prefHeight="5.0" prefWidth="260.0" />
+                                 </children>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <padding>
+                                    <Insets left="20.0" right="20.0" />
+                                 </padding>
+                              </VBox>
+                           </children>
+                        </Pane>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button alignment="CENTER" layoutX="622.0" layoutY="222.0" mnemonicParsing="false" prefHeight="172.0" prefWidth="283.0" styleClass="dark-background" stylesheets="@../css/MainTheme.css" textFill="TRANSPARENT">
+                     <graphic>
+                        <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="154.0" prefWidth="262.0" styleClass="shadow" stylesheets="@../css/style.css">
+                           <children>
+                              <ImageView fx:id="img1111111" fitHeight="138.0" fitWidth="274.0" pickOnBounds="true" />
+                              <VBox alignment="BOTTOM_CENTER" prefHeight="150.0" prefWidth="261.0" styleClass="gradient" stylesheets="@../css/style.css">
+                                 <children>
+                                    <Label fx:id="header1111111" alignment="CENTER" prefHeight="75.0" prefWidth="260.0" text="SPORTS" textFill="WHITE">
+                                       <font>
+                                          <Font name="Bookman Old Style Bold" size="24.0" />
+                                       </font>
+                                    </Label>
+                                    <Pane prefHeight="5.0" prefWidth="260.0" />
+                                 </children>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <padding>
+                                    <Insets left="20.0" right="20.0" />
+                                 </padding>
+                              </VBox>
+                           </children>
+                        </Pane>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button alignment="CENTER" layoutX="15.0" layoutY="414.0" mnemonicParsing="false" prefHeight="172.0" prefWidth="283.0" styleClass="dark-background" stylesheets="@../css/MainTheme.css" textFill="TRANSPARENT">
+                     <graphic>
+                        <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="154.0" prefWidth="262.0" styleClass="shadow" stylesheets="@../css/style.css">
+                           <children>
+                              <ImageView fx:id="img11111111" fitHeight="138.0" fitWidth="274.0" pickOnBounds="true" />
+                              <VBox alignment="BOTTOM_CENTER" prefHeight="150.0" prefWidth="261.0" styleClass="gradient" stylesheets="@../css/style.css">
+                                 <children>
+                                    <Label fx:id="header11111111" alignment="CENTER" prefHeight="75.0" prefWidth="260.0" text="ENTERTAINMENT" textFill="WHITE">
+                                       <font>
+                                          <Font name="Bookman Old Style Bold" size="22.0" />
+                                       </font>
+                                    </Label>
+                                    <Pane prefHeight="5.0" prefWidth="260.0" />
+                                 </children>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <padding>
+                                    <Insets left="20.0" right="20.0" />
+                                 </padding>
+                              </VBox>
+                           </children>
+                        </Pane>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button alignment="CENTER" layoutX="319.0" layoutY="414.0" mnemonicParsing="false" prefHeight="167.0" prefWidth="272.0" styleClass="dark-background" stylesheets="@../css/MainTheme.css" textFill="TRANSPARENT">
+                     <graphic>
+                        <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="154.0" prefWidth="262.0" styleClass="shadow" stylesheets="@../css/style.css">
+                           <children>
+                              <ImageView fx:id="img111111111" fitHeight="138.0" fitWidth="274.0" pickOnBounds="true" />
+                              <VBox alignment="BOTTOM_CENTER" prefHeight="150.0" prefWidth="261.0" styleClass="gradient" stylesheets="@../css/style.css">
+                                 <children>
+                                    <Label fx:id="header111111111" alignment="CENTER" prefHeight="75.0" prefWidth="260.0" text="WORLD" textFill="WHITE">
+                                       <font>
+                                          <Font name="Bookman Old Style Bold" size="24.0" />
+                                       </font>
+                                    </Label>
+                                    <Pane prefHeight="5.0" prefWidth="260.0" />
+                                 </children>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <padding>
+                                    <Insets left="20.0" right="20.0" />
+                                 </padding>
+                              </VBox>
+                           </children>
+                        </Pane>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button alignment="CENTER" layoutX="622.0" layoutY="414.0" mnemonicParsing="false" prefHeight="172.0" prefWidth="283.0" styleClass="dark-background" stylesheets="@../css/MainTheme.css" textFill="TRANSPARENT">
+                     <graphic>
+                        <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="154.0" prefWidth="262.0" styleClass="shadow" stylesheets="@../css/style.css">
+                           <children>
+                              <ImageView fx:id="img1111111111" fitHeight="138.0" fitWidth="274.0" pickOnBounds="true" />
+                              <VBox alignment="BOTTOM_CENTER" prefHeight="150.0" prefWidth="261.0" styleClass="gradient" stylesheets="@../css/style.css">
+                                 <children>
+                                    <Label fx:id="header1111111111" alignment="CENTER" prefHeight="75.0" prefWidth="260.0" text="OTHERS" textFill="WHITE">
+                                       <font>
+                                          <Font name="Bookman Old Style Bold" size="24.0" />
+                                       </font>
+                                    </Label>
+                                    <Pane prefHeight="5.0" prefWidth="260.0" />
+                                 </children>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <padding>
+                                    <Insets left="20.0" right="20.0" />
+                                 </padding>
+                              </VBox>
+                           </children>
+                        </Pane>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+               <padding>
+                  <Insets bottom="20.0" left="5.0" right="5.0" top="20.0" />
+               </padding>
+            </FlowPane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

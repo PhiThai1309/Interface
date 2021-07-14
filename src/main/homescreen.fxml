@@ -55,7 +55,7 @@
                   <Font name="Book Antiqua Bold" size="55.0" />
                </font>
                <textFill>
-                  <LinearGradient endX="1.0" endY="1.0" startX="0.23809526988438195" startY="0.07301584879557294">
+                  <LinearGradient endX="1.0" endY="1.0" startX="0.9650794029235841">
                      <stops>
                         <Stop>
                            <color>

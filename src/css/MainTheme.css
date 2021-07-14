@@ -1,11 +1,11 @@
 .dark-background{
-    -fx-background-color: #252525;
+    -fx-background-color: #212221;
 }
 .light-black-background{
     -fx-background-color: #414141;
 }
 .red-theme{
-    -fx-background-color: #FF0000;
+    -fx-background-color: #FA2742;
 }
 .dark-red-theme{
     -fx-background-color: #AF0404;
@@ -15,5 +15,8 @@
 }
 -transparent-theme{
     -fx-background-color: rgba(37, 37, 37, 0);
+}
+yellowish-theme{
+    -fx-background-color: #E8EAE3;
 }
 

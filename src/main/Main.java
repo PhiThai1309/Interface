@@ -19,7 +19,6 @@ public class Main extends Application {
         stage.setTitle("News Application");
         stage.setResizable(true);
         stage.getIcons().add(new Image("image/book.jpg"));
-//        stage.getIcons().add(new Image("C:\\Users\\phima\\IdeaProjects\\JavaFX\\src\\sample\\book.jpg"));
         stage.setScene(scene);
         //remove the app bar
         //stage.initStyle(StageStyle.UNDECORATED);
