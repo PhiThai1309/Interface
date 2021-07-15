@@ -9,12 +9,12 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<Button mnemonicParsing="false" styleClass="dark-background" stylesheets="@../css/style.css" textFill="TRANSPARENT" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+<Button mnemonicParsing="false" styleClass="dark-background" stylesheets="@../css/StyleSheet.css" textFill="TRANSPARENT" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
    <graphic>
-      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="167.0" prefWidth="300.0" styleClass="shadow" stylesheets="@../css/style.css">
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="167.0" prefWidth="300.0" styleClass="shadow" stylesheets="@../css/StyleSheet.css">
          <children>
             <ImageView fx:id="img1" fitHeight="167.0" fitWidth="300.0" pickOnBounds="true" />
-            <VBox alignment="BOTTOM_CENTER" prefHeight="167.0" prefWidth="300.0" styleClass="gradient" stylesheets="@../css/style.css">
+            <VBox alignment="BOTTOM_CENTER" prefHeight="167.0" prefWidth="300.0" styleClass="gradient" stylesheets="@../css/StyleSheet.css">
                <children>
                   <Label fx:id="header1" prefHeight="87.0" prefWidth="260.0" text="Header" textFill="WHITE">
                      <font>

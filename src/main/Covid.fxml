@@ -10,14 +10,13 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="700.0" prefWidth="1000.0" styleClass="dark-background" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.MenuControl">
+<AnchorPane prefHeight="700.0" prefWidth="1000.0" styleClass="dark-background" stylesheets="@../css/StyleSheet.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.MenuControl">
    <children>
-      <HBox alignment="CENTER_LEFT" prefHeight="95.0" prefWidth="1000.0" styleClass="light-black-background" stylesheets="@../css/style.css">
+      <HBox alignment="CENTER_LEFT" prefHeight="95.0" prefWidth="1000.0" styleClass="light-black-background" stylesheets="@../css/StyleSheet.css">
          <children>
             <HBox alignment="CENTER" prefHeight="107.0" prefWidth="194.0" HBox.hgrow="ALWAYS">
                <children>
-                  <Button fx:id="menu1" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#menuCategories" prefHeight="71.0" prefWidth="56.0" styleClass="light-black-background" stylesheets="@../css/style.css" textFill="TRANSPARENT">
+                  <Button fx:id="menu1" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#menuCategories" prefHeight="71.0" prefWidth="56.0" styleClass="light-black-background" stylesheets="@../css/StyleSheet.css" textFill="TRANSPARENT">
                      <graphic>
                         <ImageView blendMode="SCREEN" fitHeight="46.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true">
                            <image>

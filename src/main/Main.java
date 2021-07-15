@@ -15,7 +15,7 @@ public class Main extends Application {
 
         Scene scene = new Scene(root);
 
-        scene.getStylesheets().add("C:\\Users\\phima\\IdeaProjects\\JavaFX\\src\\css\\style.css");
+        scene.getStylesheets().add("css/StyleSheet.css");
         stage.setTitle("News Application");
         stage.setResizable(true);
         stage.getIcons().add(new Image("image/book.jpg"));
