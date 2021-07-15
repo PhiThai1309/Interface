@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.String?>
 <?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -16,7 +16,7 @@
          <children>
             <HBox alignment="CENTER" prefHeight="107.0" prefWidth="194.0" HBox.hgrow="ALWAYS">
                <children>
-                  <Button fx:id="menu1" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#menuCategories" prefHeight="71.0" prefWidth="56.0" styleClass="light-black-background" stylesheets="@../css/StyleSheet.css" textFill="TRANSPARENT">
+                  <Button fx:id="menu1" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#menuCategories" prefHeight="91.0" prefWidth="119.0" stylesheets="@../css/StyleSheet.css" textFill="TRANSPARENT">
                      <graphic>
                         <ImageView blendMode="SCREEN" fitHeight="46.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -30,10 +30,14 @@
                      <cursor>
                         <Cursor fx:constant="CLOSED_HAND" />
                      </cursor>
+                     <styleClass>
+                        <String fx:value="light-black-background" />
+                        <String fx:value="shadow" />
+                     </styleClass>
                   </Button>
                </children>
             </HBox>
-            <Label alignment="CENTER" prefHeight="95.0" prefWidth="850.0" text="COVID-19 NEWS" textFill="WHITE">
+            <Label alignment="CENTER" prefHeight="95.0" prefWidth="850.0" styleClass="dark-background" stylesheets="@../css/StyleSheet.css" text="COVID-19 NEWS" textFill="WHITE">
                <font>
                   <Font name="Bookman Old Style Bold" size="44.0" />
                </font>
@@ -52,6 +56,5 @@
             </HBox>
          </children>
       </HBox>
-      <ScrollPane layoutY="95.0" prefHeight="221.0" prefWidth="1000.0" />
    </children>
 </AnchorPane>

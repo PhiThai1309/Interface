@@ -9,13 +9,13 @@
     -fx-background-color: linear-gradient(to top,#676767,transparent);
 }
 .black-gradient{
-    -fx-background-color: linear-gradient(to top,#2B2B2B,transparent);
+    -fx-background-color: linear-gradient(to top, #27272a,transparent);
 }
 .shadow{
     -fx-effect: dropShadow(three-pass-box, rgba(0,0,0,0.2),10, 0, 0, 10);
 }
 .dark-background{
-    -fx-background-color: #212221;
+    -fx-background-color: #0D0D0D;
 }
 .light-black-background{
     -fx-background-color: #414141;
@@ -25,6 +25,12 @@
 }
 .dark-red-theme{
     -fx-background-color: #AF0404;
+}
+yellow{
+    -fx-background-color: #F6E74D;
+}
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
 }
 
 
