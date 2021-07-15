@@ -9,7 +9,7 @@
     -fx-background-color: linear-gradient(to top,#676767,transparent);
 }
 .black-gradient{
-    -fx-background-color: linear-gradient(to top, #27272a,transparent);
+    -fx-background-color: linear-gradient(to top, #0D0D0D,transparent);
 }
 .shadow{
     -fx-effect: dropShadow(three-pass-box, rgba(0,0,0,0.2),10, 0, 0, 10);

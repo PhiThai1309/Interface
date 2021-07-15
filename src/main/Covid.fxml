@@ -10,13 +10,13 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="700.0" prefWidth="1000.0" styleClass="dark-background" stylesheets="@../css/StyleSheet.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.MenuControl">
+<AnchorPane prefHeight="700.0" prefWidth="1000.0" styleClass="dark-background" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.MenuControl">
    <children>
-      <HBox alignment="CENTER_LEFT" prefHeight="95.0" prefWidth="1000.0" styleClass="light-black-background" stylesheets="@../css/StyleSheet.css">
+      <HBox alignment="CENTER_LEFT" prefHeight="95.0" prefWidth="1000.0" styleClass="light-black-background" stylesheets="@../css/style.css">
          <children>
             <HBox alignment="CENTER" prefHeight="107.0" prefWidth="194.0" HBox.hgrow="ALWAYS">
                <children>
-                  <Button fx:id="menu1" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#menuCategories" prefHeight="91.0" prefWidth="119.0" stylesheets="@../css/StyleSheet.css" textFill="TRANSPARENT">
+                  <Button fx:id="menu1" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#menuCategories" prefHeight="91.0" prefWidth="119.0" stylesheets="@../css/style.css" textFill="TRANSPARENT">
                      <graphic>
                         <ImageView blendMode="SCREEN" fitHeight="46.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -37,7 +37,7 @@
                   </Button>
                </children>
             </HBox>
-            <Label alignment="CENTER" prefHeight="95.0" prefWidth="850.0" styleClass="dark-background" stylesheets="@../css/StyleSheet.css" text="COVID-19 NEWS" textFill="WHITE">
+            <Label alignment="CENTER" prefHeight="95.0" prefWidth="850.0" styleClass="dark-background" stylesheets="@../css/style.css" text="COVID-19 NEWS" textFill="WHITE">
                <font>
                   <Font name="Bookman Old Style Bold" size="44.0" />
                </font>

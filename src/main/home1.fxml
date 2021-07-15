@@ -15,15 +15,15 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1100.0" styleClass="dark-red-theme" stylesheets="@../css/StyleSheet.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.MenuControl">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" styleClass="dark-background" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.MenuControl">
    <children>
-      <HBox alignment="CENTER" prefHeight="95.0" prefWidth="1007.0" styleClass="dark-background" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+      <HBox alignment="CENTER" prefHeight="105.0" prefWidth="1007.0" styleClass="dark-background" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
          <stylesheets>
-            <URL value="@../css/StyleSheet.css" />
-            <URL value="@../css/StyleSheet.css" />
+            <URL value="@../css/style.css" />
+            <URL value="@../css/style.css" />
          </stylesheets>
          <children>
-            <Button fx:id="menu" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#menuCategories" prefHeight="94.0" prefWidth="156.0" styleClass="dark-background" stylesheets="@../css/StyleSheet.css" textFill="TRANSPARENT" HBox.hgrow="ALWAYS">
+            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#menuCategories" prefHeight="105.0" prefWidth="161.0" styleClass="dark-background" stylesheets="@../css/style.css" textFill="TRANSPARENT" HBox.hgrow="ALWAYS">
                <graphic>
                   <ImageView blendMode="SCREEN" fitHeight="46.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -38,48 +38,48 @@
                   <Cursor fx:constant="CLOSED_HAND" />
                </cursor>
             </Button>
-            <AnchorPane prefHeight="114.0" prefWidth="124.0">
+            <AnchorPane prefHeight="95.0" prefWidth="198.0">
                <children>
-                  <Label alignment="CENTER" prefHeight="95.0" prefWidth="124.0" text="new category" textFill="#f6e74d">
+                  <Label alignment="CENTER" prefHeight="105.0" prefWidth="193.0" text="new category" textFill="#f6e74d">
                      <font>
-                        <Font name="Baskerville Old Face" size="19.0" />
+                        <Font name="Baskerville Old Face" size="31.0" />
                      </font>
                   </Label>
                </children>
             </AnchorPane>
-            <Label alignment="CENTER" prefHeight="95.0" prefWidth="554.0" styleClass="dark-background" stylesheets="@../css/StyleSheet.css" text="the NEWS" textFill="WHITE" HBox.hgrow="ALWAYS">
+            <Label alignment="CENTER" prefHeight="95.0" prefWidth="975.0" styleClass="dark-background" stylesheets="@../css/style.css" text="the NEWS" textFill="WHITE" HBox.hgrow="ALWAYS">
                <font>
                   <Font name="Baskerville Old Face" size="55.0" />
                </font>
             </Label>
             <AnchorPane>
                <children>
-                  <Label alignment="CENTER" prefHeight="94.0" prefWidth="125.0" text="by Dark Mode team" textFill="WHITE">
+                  <Label alignment="CENTER" prefHeight="105.0" prefWidth="193.0" text="by Dark Mode team" textFill="WHITE">
                      <font>
-                        <Font name="Baskerville Old Face" size="12.0" />
+                        <Font name="Baskerville Old Face" size="18.0" />
                      </font>
                   </Label>
                </children>
             </AnchorPane>
-            <Pane prefHeight="95.0" prefWidth="129.0" />
+            <Pane prefHeight="95.0" prefWidth="214.0" />
          </children>
       </HBox>
-      <ScrollPane fitToWidth="true" layoutY="95.0" prefHeight="705.0" prefWidth="1015.0" styleClass="dark-background" stylesheets="@../css/StyleSheet.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="55.0" AnchorPane.topAnchor="95.0">
+      <ScrollPane fitToWidth="true" layoutY="95.0" prefHeight="705.0" prefWidth="1015.0" styleClass="dark-background" stylesheets="@../css/style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="60.0" AnchorPane.topAnchor="105.0">
          <content>
-            <FlowPane alignment="TOP_CENTER" columnHalignment="CENTER" hgap="20.0" prefHeight="783.0" prefWidth="1030.0" styleClass="dark-background" stylesheets="@../css/StyleSheet.css" vgap="20.0">
+            <FlowPane alignment="TOP_CENTER" columnHalignment="CENTER" hgap="20.0" prefHeight="783.0" prefWidth="1030.0" styleClass="dark-background" stylesheets="@../css/style.css" vgap="20.0">
                <children>
-                  <Button mnemonicParsing="false" styleClass="dark-background" stylesheets="@../css/StyleSheet.css" textFill="TRANSPARENT">
+                  <Button mnemonicParsing="false" onAction="#article" prefHeight="300.0" prefWidth="500.0" styleClass="dark-background" stylesheets="@../css/style.css" textFill="TRANSPARENT">
                      <graphic>
-                        <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="167.0" prefWidth="300.0" styleClass="shadow" stylesheets="@../css/StyleSheet.css">
+                        <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="500.0" styleClass="shadow" stylesheets="@../css/style.css">
                            <children>
-                              <ImageView fx:id="img12" fitHeight="167.0" fitWidth="300.0" pickOnBounds="true">
+                              <ImageView fx:id="img12" fitHeight="300.0" fitWidth="500.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
                                     <Image url="@../image/sampleimg.jpg" />
                                  </image>
                               </ImageView>
-                              <VBox alignment="BOTTOM_CENTER" prefHeight="167.0" prefWidth="300.0" styleClass="black-gradient" stylesheets="@../css/StyleSheet.css">
+                              <VBox alignment="BOTTOM_CENTER" prefHeight="300.0" prefWidth="500.0" styleClass="black-gradient" stylesheets="@../css/style.css">
                                  <children>
-                                    <Label fx:id="header12" alignment="CENTER" prefHeight="87.0" prefWidth="260.0" text="Sample Header" textFill="WHITE">
+                                    <Label fx:id="header12" alignment="CENTER" prefHeight="232.0" prefWidth="460.0" text="Sample Header" textFill="WHITE">
                                        <font>
                                           <Font name="System Bold" size="20.0" />
                                        </font>
@@ -100,18 +100,18 @@
                         <Cursor fx:constant="HAND" />
                      </cursor>
                   </Button>
-                  <Button mnemonicParsing="false" styleClass="dark-background" stylesheets="@../css/StyleSheet.css" textFill="TRANSPARENT">
+                  <Button mnemonicParsing="false" prefHeight="300.0" prefWidth="500.0" styleClass="dark-background" stylesheets="@../css/style.css" textFill="TRANSPARENT">
                      <graphic>
-                        <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="167.0" prefWidth="300.0" styleClass="shadow" stylesheets="@../css/StyleSheet.css">
+                        <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="500.0" styleClass="shadow" stylesheets="@../css/style.css">
                            <children>
-                              <ImageView fx:id="img121" fitHeight="167.0" fitWidth="300.0" pickOnBounds="true">
+                              <ImageView fx:id="img121" fitHeight="300.0" fitWidth="500.0" pickOnBounds="true">
                                  <image>
                                     <Image url="@../image/sampleimg(1).jpg" />
                                  </image>
                               </ImageView>
-                              <VBox alignment="BOTTOM_CENTER" prefHeight="167.0" prefWidth="300.0" styleClass="black-gradient" stylesheets="@../css/StyleSheet.css">
+                              <VBox alignment="BOTTOM_CENTER" prefHeight="300.0" prefWidth="500.0" styleClass="black-gradient" stylesheets="@../css/style.css">
                                  <children>
-                                    <Label fx:id="header121" alignment="CENTER" prefHeight="87.0" prefWidth="260.0" text="Sample Header" textFill="WHITE">
+                                    <Label fx:id="header121" alignment="CENTER" prefHeight="226.0" prefWidth="457.0" text="Sample Header" textFill="WHITE">
                                        <font>
                                           <Font name="System Bold" size="20.0" />
                                        </font>
@@ -132,18 +132,18 @@
                         <Cursor fx:constant="HAND" />
                      </cursor>
                   </Button>
-                  <Button layoutX="535.0" layoutY="30.0" mnemonicParsing="false" styleClass="dark-background" stylesheets="@../css/StyleSheet.css" textFill="TRANSPARENT">
+                  <Button layoutX="949.0" layoutY="30.0" mnemonicParsing="false" prefHeight="300.0" prefWidth="500.0" styleClass="dark-background" stylesheets="@../css/style.css" textFill="TRANSPARENT">
                      <graphic>
-                        <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="167.0" prefWidth="300.0" styleClass="shadow" stylesheets="@../css/StyleSheet.css">
+                        <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="500.0" styleClass="shadow" stylesheets="@../css/style.css">
                            <children>
-                              <ImageView fx:id="img1211" fitHeight="167.0" fitWidth="300.0" pickOnBounds="true">
+                              <ImageView fx:id="img1211" fitHeight="300.0" fitWidth="500.0" pickOnBounds="true">
                                  <image>
                                     <Image url="@../image/sampleimg(1).jpg" />
                                  </image>
                               </ImageView>
-                              <VBox alignment="BOTTOM_CENTER" prefHeight="167.0" prefWidth="300.0" styleClass="black-gradient" stylesheets="@../css/StyleSheet.css">
+                              <VBox alignment="BOTTOM_CENTER" prefHeight="300.0" prefWidth="500.0" styleClass="black-gradient" stylesheets="@../css/style.css">
                                  <children>
-                                    <Label fx:id="header1211" alignment="CENTER" prefHeight="87.0" prefWidth="260.0" text="Sample Header" textFill="WHITE">
+                                    <Label fx:id="header1211" alignment="CENTER" prefHeight="226.0" prefWidth="457.0" text="Sample Header" textFill="WHITE">
                                        <font>
                                           <Font name="System Bold" size="20.0" />
                                        </font>
@@ -164,18 +164,18 @@
                         <Cursor fx:constant="HAND" />
                      </cursor>
                   </Button>
-                  <Button layoutX="703.0" layoutY="30.0" mnemonicParsing="false" styleClass="dark-background" stylesheets="@../css/StyleSheet.css" textFill="TRANSPARENT">
+                  <Button layoutX="1217.0" layoutY="30.0" mnemonicParsing="false" prefHeight="300.0" prefWidth="500.0" styleClass="dark-background" stylesheets="@../css/style.css" textFill="TRANSPARENT">
                      <graphic>
-                        <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="167.0" prefWidth="300.0" styleClass="shadow" stylesheets="@../css/StyleSheet.css">
+                        <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="500.0" styleClass="shadow" stylesheets="@../css/style.css">
                            <children>
-                              <ImageView fx:id="img12111" fitHeight="167.0" fitWidth="300.0" pickOnBounds="true">
+                              <ImageView fx:id="img12111" fitHeight="300.0" fitWidth="500.0" pickOnBounds="true">
                                  <image>
                                     <Image url="@../image/sampleimg(1).jpg" />
                                  </image>
                               </ImageView>
-                              <VBox alignment="BOTTOM_CENTER" prefHeight="167.0" prefWidth="300.0" styleClass="black-gradient" stylesheets="@../css/StyleSheet.css">
+                              <VBox alignment="BOTTOM_CENTER" prefHeight="300.0" prefWidth="500.0" styleClass="black-gradient" stylesheets="@../css/style.css">
                                  <children>
-                                    <Label fx:id="header12111" alignment="CENTER" prefHeight="87.0" prefWidth="260.0" text="Sample Header" textFill="WHITE">
+                                    <Label fx:id="header12111" alignment="CENTER" prefHeight="226.0" prefWidth="457.0" text="Sample Header" textFill="WHITE">
                                        <font>
                                           <Font name="System Bold" size="20.0" />
                                        </font>
@@ -196,18 +196,18 @@
                         <Cursor fx:constant="HAND" />
                      </cursor>
                   </Button>
-                  <Button layoutX="367.0" layoutY="225.0" mnemonicParsing="false" styleClass="dark-background" stylesheets="@../css/StyleSheet.css" textFill="TRANSPARENT">
+                  <Button layoutX="681.0" layoutY="358.0" mnemonicParsing="false" prefHeight="300.0" prefWidth="500.0" styleClass="dark-background" stylesheets="@../css/style.css" textFill="TRANSPARENT">
                      <graphic>
-                        <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="167.0" prefWidth="300.0" styleClass="shadow" stylesheets="@../css/StyleSheet.css">
+                        <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="500.0" styleClass="shadow" stylesheets="@../css/style.css">
                            <children>
-                              <ImageView fx:id="img121111" fitHeight="167.0" fitWidth="300.0" pickOnBounds="true">
+                              <ImageView fx:id="img121111" fitHeight="300.0" fitWidth="500.0" pickOnBounds="true">
                                  <image>
                                     <Image url="@../image/sampleimg(1).jpg" />
                                  </image>
                               </ImageView>
-                              <VBox alignment="BOTTOM_CENTER" prefHeight="167.0" prefWidth="300.0" styleClass="black-gradient" stylesheets="@../css/StyleSheet.css">
+                              <VBox alignment="BOTTOM_CENTER" prefHeight="300.0" prefWidth="500.0" styleClass="black-gradient" stylesheets="@../css/style.css">
                                  <children>
-                                    <Label fx:id="header121111" alignment="CENTER" prefHeight="87.0" prefWidth="260.0" text="Sample Header" textFill="WHITE">
+                                    <Label fx:id="header121111" alignment="CENTER" prefHeight="226.0" prefWidth="457.0" text="Sample Header" textFill="WHITE">
                                        <font>
                                           <Font name="System Bold" size="20.0" />
                                        </font>
@@ -228,18 +228,18 @@
                         <Cursor fx:constant="HAND" />
                      </cursor>
                   </Button>
-                  <Button layoutX="535.0" layoutY="225.0" mnemonicParsing="false" styleClass="dark-background" stylesheets="@../css/StyleSheet.css" textFill="TRANSPARENT">
+                  <Button layoutX="949.0" layoutY="358.0" mnemonicParsing="false" prefHeight="300.0" prefWidth="500.0" styleClass="dark-background" stylesheets="@../css/style.css" textFill="TRANSPARENT">
                      <graphic>
-                        <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="167.0" prefWidth="300.0" styleClass="shadow" stylesheets="@../css/StyleSheet.css">
+                        <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="500.0" styleClass="shadow" stylesheets="@../css/style.css">
                            <children>
-                              <ImageView fx:id="img1211111" fitHeight="167.0" fitWidth="300.0" pickOnBounds="true">
+                              <ImageView fx:id="img1211111" fitHeight="300.0" fitWidth="500.0" pickOnBounds="true">
                                  <image>
                                     <Image url="@../image/sampleimg(1).jpg" />
                                  </image>
                               </ImageView>
-                              <VBox alignment="BOTTOM_CENTER" prefHeight="167.0" prefWidth="300.0" styleClass="black-gradient" stylesheets="@../css/StyleSheet.css">
+                              <VBox alignment="BOTTOM_CENTER" prefHeight="300.0" prefWidth="500.0" styleClass="black-gradient" stylesheets="@../css/style.css">
                                  <children>
-                                    <Label fx:id="header1211111" alignment="CENTER" prefHeight="87.0" prefWidth="260.0" text="Sample Header" textFill="WHITE">
+                                    <Label fx:id="header1211111" alignment="CENTER" prefHeight="226.0" prefWidth="457.0" text="Sample Header" textFill="WHITE">
                                        <font>
                                           <Font name="System Bold" size="20.0" />
                                        </font>
@@ -260,18 +260,18 @@
                         <Cursor fx:constant="HAND" />
                      </cursor>
                   </Button>
-                  <Button layoutX="703.0" layoutY="225.0" mnemonicParsing="false" styleClass="dark-background" stylesheets="@../css/StyleSheet.css" textFill="TRANSPARENT">
+                  <Button layoutX="1217.0" layoutY="358.0" mnemonicParsing="false" prefHeight="300.0" prefWidth="500.0" styleClass="dark-background" stylesheets="@../css/style.css" textFill="TRANSPARENT">
                      <graphic>
-                        <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="167.0" prefWidth="300.0" styleClass="shadow" stylesheets="@../css/StyleSheet.css">
+                        <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="500.0" styleClass="shadow" stylesheets="@../css/style.css">
                            <children>
-                              <ImageView fx:id="img12111111" fitHeight="167.0" fitWidth="300.0" pickOnBounds="true">
+                              <ImageView fx:id="img12111111" fitHeight="300.0" fitWidth="500.0" pickOnBounds="true">
                                  <image>
                                     <Image url="@../image/sampleimg(1).jpg" />
                                  </image>
                               </ImageView>
-                              <VBox alignment="BOTTOM_CENTER" prefHeight="167.0" prefWidth="300.0" styleClass="black-gradient" stylesheets="@../css/StyleSheet.css">
+                              <VBox alignment="BOTTOM_CENTER" prefHeight="300.0" prefWidth="500.0" styleClass="black-gradient" stylesheets="@../css/style.css">
                                  <children>
-                                    <Label fx:id="header12111111" alignment="CENTER" prefHeight="87.0" prefWidth="260.0" text="Sample Header" textFill="WHITE">
+                                    <Label fx:id="header12111111" alignment="CENTER" prefHeight="226.0" prefWidth="457.0" text="Sample Header" textFill="WHITE">
                                        <font>
                                           <Font name="System Bold" size="20.0" />
                                        </font>
@@ -292,18 +292,18 @@
                         <Cursor fx:constant="HAND" />
                      </cursor>
                   </Button>
-                  <Button layoutX="367.0" layoutY="421.0" mnemonicParsing="false" styleClass="dark-background" stylesheets="@../css/StyleSheet.css" textFill="TRANSPARENT">
+                  <Button layoutX="675.0" layoutY="686.0" mnemonicParsing="false" prefHeight="300.0" prefWidth="500.0" styleClass="dark-background" stylesheets="@../css/style.css" textFill="TRANSPARENT">
                      <graphic>
-                        <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="167.0" prefWidth="300.0" styleClass="shadow" stylesheets="@../css/StyleSheet.css">
+                        <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="500.0" styleClass="shadow" stylesheets="@../css/style.css">
                            <children>
-                              <ImageView fx:id="img121111111" fitHeight="167.0" fitWidth="300.0" pickOnBounds="true">
+                              <ImageView fx:id="img121111111" fitHeight="300.0" fitWidth="500.0" pickOnBounds="true">
                                  <image>
                                     <Image url="@../image/sampleimg(1).jpg" />
                                  </image>
                               </ImageView>
-                              <VBox alignment="BOTTOM_CENTER" prefHeight="167.0" prefWidth="300.0" styleClass="black-gradient" stylesheets="@../css/StyleSheet.css">
+                              <VBox alignment="BOTTOM_CENTER" prefHeight="300.0" prefWidth="500.0" styleClass="black-gradient" stylesheets="@../css/style.css">
                                  <children>
-                                    <Label fx:id="header121111111" alignment="CENTER" prefHeight="87.0" prefWidth="260.0" text="Sample Header" textFill="WHITE">
+                                    <Label fx:id="header121111111" alignment="CENTER" prefHeight="226.0" prefWidth="457.0" text="Sample Header" textFill="WHITE">
                                        <font>
                                           <Font name="System Bold" size="20.0" />
                                        </font>
@@ -324,18 +324,18 @@
                         <Cursor fx:constant="HAND" />
                      </cursor>
                   </Button>
-                  <Button layoutX="535.0" layoutY="421.0" mnemonicParsing="false" styleClass="dark-background" stylesheets="@../css/StyleSheet.css" textFill="TRANSPARENT">
+                  <Button layoutX="943.0" layoutY="686.0" mnemonicParsing="false" prefHeight="300.0" prefWidth="500.0" styleClass="dark-background" stylesheets="@../css/style.css" textFill="TRANSPARENT">
                      <graphic>
-                        <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="167.0" prefWidth="300.0" styleClass="shadow" stylesheets="@../css/StyleSheet.css">
+                        <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="500.0" styleClass="shadow" stylesheets="@../css/style.css">
                            <children>
-                              <ImageView fx:id="img1211111111" fitHeight="167.0" fitWidth="300.0" pickOnBounds="true">
+                              <ImageView fx:id="img1211111111" fitHeight="300.0" fitWidth="500.0" pickOnBounds="true">
                                  <image>
                                     <Image url="@../image/sampleimg(1).jpg" />
                                  </image>
                               </ImageView>
-                              <VBox alignment="BOTTOM_CENTER" prefHeight="167.0" prefWidth="300.0" styleClass="black-gradient" stylesheets="@../css/StyleSheet.css">
+                              <VBox alignment="BOTTOM_CENTER" prefHeight="300.0" prefWidth="500.0" styleClass="black-gradient" stylesheets="@../css/style.css">
                                  <children>
-                                    <Label fx:id="header1211111111" alignment="CENTER" prefHeight="87.0" prefWidth="260.0" text="Sample Header" textFill="WHITE">
+                                    <Label fx:id="header1211111111" alignment="CENTER" prefHeight="226.0" prefWidth="457.0" text="Sample Header" textFill="WHITE">
                                        <font>
                                           <Font name="System Bold" size="20.0" />
                                        </font>
@@ -356,18 +356,18 @@
                         <Cursor fx:constant="HAND" />
                      </cursor>
                   </Button>
-                  <Button layoutX="703.0" layoutY="421.0" mnemonicParsing="false" styleClass="dark-background" stylesheets="@../css/StyleSheet.css" textFill="TRANSPARENT">
+                  <Button layoutX="1211.0" layoutY="686.0" mnemonicParsing="false" prefHeight="300.0" prefWidth="500.0" styleClass="dark-background" stylesheets="@../css/style.css" textFill="TRANSPARENT">
                      <graphic>
-                        <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="167.0" prefWidth="300.0" styleClass="shadow" stylesheets="@../css/StyleSheet.css">
+                        <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="500.0" styleClass="shadow" stylesheets="@../css/style.css">
                            <children>
-                              <ImageView fx:id="img12111111111" fitHeight="167.0" fitWidth="300.0" pickOnBounds="true">
+                              <ImageView fx:id="img12111111111" fitHeight="300.0" fitWidth="500.0" pickOnBounds="true">
                                  <image>
                                     <Image url="@../image/sampleimg(1).jpg" />
                                  </image>
                               </ImageView>
-                              <VBox alignment="BOTTOM_CENTER" prefHeight="167.0" prefWidth="300.0" styleClass="black-gradient" stylesheets="@../css/StyleSheet.css">
+                              <VBox alignment="BOTTOM_CENTER" prefHeight="300.0" prefWidth="500.0" styleClass="black-gradient" stylesheets="@../css/style.css">
                                  <children>
-                                    <Label fx:id="header12111111111" alignment="CENTER" prefHeight="87.0" prefWidth="260.0" text="Sample Header" textFill="WHITE">
+                                    <Label fx:id="header12111111111" alignment="CENTER" prefHeight="226.0" prefWidth="457.0" text="Sample Header" textFill="WHITE">
                                        <font>
                                           <Font name="System Bold" size="20.0" />
                                        </font>
@@ -395,40 +395,40 @@
             </FlowPane>
          </content>
       </ScrollPane>
-      <VBox alignment="CENTER" layoutX="1046.0" layoutY="95.0" prefHeight="706.0" prefWidth="55.0" spacing="20.0" styleClass="dark-background" stylesheets="@../css/StyleSheet.css" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="95.0">
+      <VBox alignment="CENTER" layoutX="1046.0" layoutY="95.0" prefHeight="706.0" prefWidth="60.0" spacing="20.0" styleClass="dark-background" stylesheets="@../css/style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="95.0">
          <children>
-            <Button mnemonicParsing="false" prefHeight="55.0" prefWidth="55.0" styleClass="dark-background" stylesheets="@../css/StyleSheet.css" text="01" textFill="WHITE" underline="true">
+            <Button mnemonicParsing="false" prefHeight="55.0" prefWidth="60.0" styleClass="dark-background" stylesheets="@../css/style.css" text="01" textFill="WHITE" underline="true">
                <font>
-                  <Font name="Book Antiqua Bold" size="23.0" />
+                  <Font name="Book Antiqua Bold" size="25.0" />
                </font>
             </Button>
-            <Button layoutX="10.0" layoutY="335.0" mnemonicParsing="false" onAction="#menuHome2" prefHeight="55.0" prefWidth="55.0" styleClass="dark-background" stylesheets="@../css/StyleSheet.css" text="02" textFill="WHITE">
+            <Button layoutX="10.0" layoutY="335.0" mnemonicParsing="false" onAction="#menuHome2" prefHeight="55.0" prefWidth="60.0" styleClass="dark-background" stylesheets="@../css/style.css" text="02" textFill="WHITE">
                <font>
-                  <Font name="Book Antiqua" size="20.0" />
-               </font>
-               <cursor>
-                  <Cursor fx:constant="HAND" />
-               </cursor>
-            </Button>
-            <Button layoutX="10.0" layoutY="373.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="55.0" styleClass="dark-background" stylesheets="@../css/StyleSheet.css" text="03" textFill="WHITE">
-               <font>
-                  <Font name="Book Antiqua" size="20.0" />
+                  <Font name="Book Antiqua" size="24.0" />
                </font>
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button layoutX="10.0" layoutY="411.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="55.0" styleClass="dark-background" stylesheets="@../css/StyleSheet.css" text="04" textFill="WHITE">
+            <Button layoutX="10.0" layoutY="373.0" mnemonicParsing="false" onAction="#menuHome3" prefHeight="55.0" prefWidth="60.0" styleClass="dark-background" stylesheets="@../css/style.css" text="03" textFill="WHITE">
                <font>
-                  <Font name="Book Antiqua" size="20.0" />
+                  <Font name="Book Antiqua" size="24.0" />
                </font>
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button layoutX="10.0" layoutY="449.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="55.0" styleClass="dark-background" stylesheets="@../css/StyleSheet.css" text="05" textFill="WHITE">
+            <Button layoutX="10.0" layoutY="411.0" mnemonicParsing="false" onAction="#menuHome4" prefHeight="55.0" prefWidth="60.0" styleClass="dark-background" stylesheets="@../css/style.css" text="04" textFill="WHITE">
                <font>
-                  <Font name="Book Antiqua" size="20.0" />
+                  <Font name="Book Antiqua" size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="10.0" layoutY="449.0" mnemonicParsing="false" onAction="#menuHome5" prefHeight="55.0" prefWidth="60.0" styleClass="dark-background" stylesheets="@../css/style.css" text="05" textFill="WHITE">
+               <font>
+                  <Font name="Book Antiqua" size="24.0" />
                </font>
                <cursor>
                   <Cursor fx:constant="HAND" />

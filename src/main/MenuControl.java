@@ -30,7 +30,6 @@ public class MenuControl {
         stage.setScene(scene);
         stage.show();
     }
-
     public void menuHome2(ActionEvent event) throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("home2.fxml"));
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
@@ -38,6 +37,28 @@ public class MenuControl {
         stage.setScene(scene);
         stage.show();
     }
+    public void menuHome3(ActionEvent event) throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("home3.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+    public void menuHome4(ActionEvent event) throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("home4.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+    public void menuHome5(ActionEvent event) throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("home5.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+
 
     public void menuCovid(ActionEvent event) throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("Covid.fxml"));
@@ -46,5 +67,15 @@ public class MenuControl {
         stage.setScene(scene);
         stage.show();
     }
+
+    public void article(ActionEvent event) throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("NewsTemplate.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+
+
 
 }

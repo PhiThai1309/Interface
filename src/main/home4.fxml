@@ -405,26 +405,26 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="55.0" prefWidth="60.0" styleClass="dark-background" stylesheets="@../css/style.css" text="02" textFill="WHITE" underline="true">
+            <Button layoutX="10.0" layoutY="373.0" mnemonicParsing="false" onAction="#menuHome2" prefHeight="55.0" prefWidth="60.0" styleClass="dark-background" stylesheets="@../css/style.css" text="02" textFill="WHITE">
+               <font>
+                  <Font name="Book Antiqua" size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="10.0" layoutY="411.0" mnemonicParsing="false" onAction="#menuHome3" prefHeight="55.0" prefWidth="60.0" styleClass="dark-background" stylesheets="@../css/style.css" text="03" textFill="WHITE">
+               <font>
+                  <Font name="Book Antiqua" size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="55.0" prefWidth="60.0" styleClass="dark-background" stylesheets="@../css/style.css" text="04" textFill="WHITE" underline="true">
                <font>
                   <Font name="Book Antiqua Bold" size="25.0" />
                </font>
-            </Button>
-            <Button layoutX="10.0" layoutY="373.0" mnemonicParsing="false" onAction="#menuHome3" prefHeight="55.0" prefWidth="60.0" styleClass="dark-background" stylesheets="@../css/style.css" text="03" textFill="WHITE">
-               <font>
-                  <Font name="Book Antiqua" size="24.0" />
-               </font>
-               <cursor>
-                  <Cursor fx:constant="HAND" />
-               </cursor>
-            </Button>
-            <Button layoutX="10.0" layoutY="411.0" mnemonicParsing="false" onAction="#menuHome4" prefHeight="55.0" prefWidth="60.0" styleClass="dark-background" stylesheets="@../css/style.css" text="04" textFill="WHITE">
-               <font>
-                  <Font name="Book Antiqua" size="24.0" />
-               </font>
-               <cursor>
-                  <Cursor fx:constant="HAND" />
-               </cursor>
             </Button>
             <Button layoutX="10.0" layoutY="449.0" mnemonicParsing="false" onAction="#menuHome5" prefHeight="55.0" prefWidth="60.0" styleClass="dark-background" stylesheets="@../css/style.css" text="05" textFill="WHITE">
                <font>
