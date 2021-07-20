@@ -14,7 +14,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" styleClass="dark-background" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.MenuControl">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" styleClass="dark-background" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.Controller">
    <children>
       <HBox alignment="CENTER" prefHeight="105.0" prefWidth="1007.0" styleClass="dark-background" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
          <stylesheets>
@@ -41,7 +41,7 @@
                <children>
                   <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
                      <children>
-                        <Button mnemonicParsing="false" onAction="#menuHome1" prefHeight="97.0" prefWidth="202.0" styleClass="dark-background" text="Return" textFill="WHITE" HBox.hgrow="ALWAYS">
+                        <Button mnemonicParsing="false" onAction="#home" prefHeight="97.0" prefWidth="202.0" styleClass="dark-background" text="Return" textFill="WHITE" HBox.hgrow="ALWAYS">
                            <graphic>
                               <ImageView fitHeight="81.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
                                  <image>

@@ -14,7 +14,7 @@ public class Main extends Application {
     public void start(Stage stage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("home1.fxml"));
 
-        Scene scene = new Scene(root,1500,1000);
+        Scene scene = new Scene(root);
 
         scene.getStylesheets().add("css/style.css");
         stage.setTitle("News Application");
@@ -23,7 +23,7 @@ public class Main extends Application {
         stage.setScene(scene);
         stage.setMaximized(true);
         stage.setMinHeight(700);
-        stage.setMinWidth(900);
+        stage.setMinWidth(870);
         //remove the app bar
         //stage.initStyle(StageStyle.UNDECORATED);
 

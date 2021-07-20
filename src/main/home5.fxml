@@ -15,7 +15,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" styleClass="dark-background" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.MenuControl">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" styleClass="dark-background" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.Controller">
    <children>
       <HBox alignment="CENTER" prefHeight="105.0" prefWidth="1007.0" styleClass="dark-background" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
          <stylesheets>
@@ -397,7 +397,7 @@
       </ScrollPane>
       <VBox alignment="CENTER" layoutX="1046.0" layoutY="95.0" prefHeight="706.0" prefWidth="60.0" spacing="20.0" styleClass="dark-background" stylesheets="@../css/style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="95.0">
          <children>
-            <Button layoutX="10.0" layoutY="335.0" mnemonicParsing="false" onAction="#menuHome1" prefHeight="55.0" prefWidth="60.0" styleClass="dark-background" stylesheets="@../css/style.css" text="01" textFill="WHITE">
+            <Button layoutX="10.0" layoutY="335.0" mnemonicParsing="false" onAction="#home" prefHeight="55.0" prefWidth="60.0" styleClass="dark-background" stylesheets="@../css/style.css" text="01" textFill="WHITE">
                <font>
                   <Font name="Book Antiqua" size="24.0" />
                </font>

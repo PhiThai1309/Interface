@@ -70,7 +70,7 @@
                         <Cursor fx:constant="HAND" />
                      </cursor>
                   </Button>
-                  <Button alignment="CENTER" layoutX="15.0" layoutY="30.0" mnemonicParsing="false" onAction="#menuCovid" prefHeight="200.0" prefWidth="350.0" styleClass="dark-background" stylesheets="@../css/style.css" textFill="TRANSPARENT">
+                  <Button alignment="CENTER" layoutX="15.0" layoutY="30.0" mnemonicParsing="false" prefHeight="200.0" prefWidth="350.0" styleClass="dark-background" stylesheets="@../css/style.css" textFill="TRANSPARENT">
                      <graphic>
                         <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="350.0" styleClass="shadow" stylesheets="@../css/style.css">
                            <children>
