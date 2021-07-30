@@ -79,6 +79,23 @@
                               </ImageView>
                               <VBox alignment="BOTTOM_CENTER" prefHeight="300.0" prefWidth="500.0" styleClass="black-gradient" stylesheets="@../css/style.css">
                                  <children>
+                                    <HBox prefHeight="43.0" prefWidth="460.0">
+                                       <children>
+                                          <Label prefHeight="43.0" prefWidth="306.0" text="Source" textFill="WHITE">
+                                             <font>
+                                                <Font size="20.0" />
+                                             </font>
+                                             <HBox.margin>
+                                                <Insets />
+                                             </HBox.margin>
+                                          </Label>
+                                          <Label alignment="CENTER_RIGHT" prefHeight="48.0" prefWidth="293.0" text="Time" textFill="WHITE">
+                                             <font>
+                                                <Font size="20.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </HBox>
                                     <Label fx:id="header" alignment="CENTER" lineSpacing="5.0" prefHeight="130.0" prefWidth="460.0" style="-fx-wrap-text: true;" text="Sample Header" textAlignment="CENTER" textFill="WHITE" wrapText="true">
                                        <font>
                                           <Font name="System Bold" size="20.0" />
@@ -110,6 +127,23 @@
                               </ImageView>
                               <VBox alignment="BOTTOM_CENTER" prefHeight="300.0" prefWidth="500.0" styleClass="black-gradient" stylesheets="@../css/style.css">
                                  <children>
+                                    <HBox prefHeight="43.0" prefWidth="460.0">
+                                       <children>
+                                          <Label prefHeight="43.0" prefWidth="306.0" text="Source" textFill="WHITE">
+                                             <font>
+                                                <Font size="20.0" />
+                                             </font>
+                                             <HBox.margin>
+                                                <Insets />
+                                             </HBox.margin>
+                                          </Label>
+                                          <Label alignment="CENTER_RIGHT" prefHeight="48.0" prefWidth="293.0" text="Time" textFill="WHITE">
+                                             <font>
+                                                <Font size="20.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </HBox>
                                     <Label fx:id="header1" alignment="CENTER" lineSpacing="5.0" prefHeight="130.0" prefWidth="460.0" text="Sample Header" textAlignment="CENTER" textFill="WHITE" wrapText="true">
                                        <font>
                                           <Font name="System Bold" size="20.0" />
@@ -141,6 +175,23 @@
                               </ImageView>
                               <VBox alignment="BOTTOM_CENTER" prefHeight="300.0" prefWidth="500.0" styleClass="black-gradient" stylesheets="@../css/style.css">
                                  <children>
+                                    <HBox prefHeight="43.0" prefWidth="460.0">
+                                       <children>
+                                          <Label prefHeight="43.0" prefWidth="306.0" text="Source" textFill="WHITE">
+                                             <font>
+                                                <Font size="20.0" />
+                                             </font>
+                                             <HBox.margin>
+                                                <Insets />
+                                             </HBox.margin>
+                                          </Label>
+                                          <Label alignment="CENTER_RIGHT" prefHeight="48.0" prefWidth="293.0" text="Time" textFill="WHITE">
+                                             <font>
+                                                <Font size="20.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </HBox>
                                     <Label fx:id="header2" alignment="CENTER" lineSpacing="5.0" prefHeight="130.0" prefWidth="460.0" text="Sample Header" textAlignment="CENTER" textFill="WHITE" wrapText="true">
                                        <font>
                                           <Font name="System Bold" size="20.0" />
@@ -172,12 +223,28 @@
                               </ImageView>
                               <VBox alignment="BOTTOM_CENTER" prefHeight="300.0" prefWidth="500.0" styleClass="black-gradient" stylesheets="@../css/style.css">
                                  <children>
+                                    <HBox prefHeight="43.0" prefWidth="460.0">
+                                       <children>
+                                          <Label prefHeight="43.0" prefWidth="306.0" text="Source" textFill="WHITE">
+                                             <font>
+                                                <Font size="20.0" />
+                                             </font>
+                                             <HBox.margin>
+                                                <Insets />
+                                             </HBox.margin>
+                                          </Label>
+                                          <Label alignment="CENTER_RIGHT" prefHeight="48.0" prefWidth="293.0" text="Time" textFill="WHITE">
+                                             <font>
+                                                <Font size="20.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </HBox>
                                     <Label fx:id="header3" alignment="CENTER" lineSpacing="5.0" prefHeight="130.0" prefWidth="460.0" text="Sample Header" textAlignment="CENTER" textFill="WHITE" wrapText="true">
                                        <font>
                                           <Font name="System Bold" size="20.0" />
                                        </font>
                                     </Label>
-                                    <Pane prefHeight="5.0" prefWidth="260.0" />
                                  </children>
                                  <opaqueInsets>
                                     <Insets />
@@ -204,12 +271,28 @@
                               </ImageView>
                               <VBox alignment="BOTTOM_CENTER" prefHeight="300.0" prefWidth="500.0" styleClass="black-gradient" stylesheets="@../css/style.css">
                                  <children>
+                                    <HBox prefHeight="43.0" prefWidth="460.0">
+                                       <children>
+                                          <Label prefHeight="43.0" prefWidth="306.0" text="Source" textFill="WHITE">
+                                             <font>
+                                                <Font size="20.0" />
+                                             </font>
+                                             <HBox.margin>
+                                                <Insets />
+                                             </HBox.margin>
+                                          </Label>
+                                          <Label alignment="CENTER_RIGHT" prefHeight="48.0" prefWidth="293.0" text="Time" textFill="WHITE">
+                                             <font>
+                                                <Font size="20.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </HBox>
                                     <Label fx:id="header4" alignment="CENTER" lineSpacing="5.0" prefHeight="130.0" prefWidth="460.0" text="Sample Header" textAlignment="CENTER" textFill="WHITE" wrapText="true">
                                        <font>
                                           <Font name="System Bold" size="20.0" />
                                        </font>
                                     </Label>
-                                    <Pane prefHeight="5.0" prefWidth="260.0" />
                                  </children>
                                  <opaqueInsets>
                                     <Insets />
@@ -236,12 +319,28 @@
                               </ImageView>
                               <VBox alignment="BOTTOM_CENTER" prefHeight="300.0" prefWidth="500.0" styleClass="black-gradient" stylesheets="@../css/style.css">
                                  <children>
+                                    <HBox prefHeight="43.0" prefWidth="460.0">
+                                       <children>
+                                          <Label prefHeight="43.0" prefWidth="306.0" text="Source" textFill="WHITE">
+                                             <font>
+                                                <Font size="20.0" />
+                                             </font>
+                                             <HBox.margin>
+                                                <Insets />
+                                             </HBox.margin>
+                                          </Label>
+                                          <Label alignment="CENTER_RIGHT" prefHeight="48.0" prefWidth="293.0" text="Time" textFill="WHITE">
+                                             <font>
+                                                <Font size="20.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </HBox>
                                     <Label fx:id="header5" alignment="CENTER" lineSpacing="5.0" prefHeight="130.0" prefWidth="460.0" text="Sample Header" textAlignment="CENTER" textFill="WHITE" wrapText="true">
                                        <font>
                                           <Font name="System Bold" size="20.0" />
                                        </font>
                                     </Label>
-                                    <Pane prefHeight="5.0" prefWidth="260.0" />
                                  </children>
                                  <opaqueInsets>
                                     <Insets />
@@ -268,12 +367,28 @@
                               </ImageView>
                               <VBox alignment="BOTTOM_CENTER" prefHeight="300.0" prefWidth="500.0" styleClass="black-gradient" stylesheets="@../css/style.css">
                                  <children>
+                                    <HBox prefHeight="43.0" prefWidth="460.0">
+                                       <children>
+                                          <Label prefHeight="43.0" prefWidth="306.0" text="Source" textFill="WHITE">
+                                             <font>
+                                                <Font size="20.0" />
+                                             </font>
+                                             <HBox.margin>
+                                                <Insets />
+                                             </HBox.margin>
+                                          </Label>
+                                          <Label alignment="CENTER_RIGHT" prefHeight="48.0" prefWidth="293.0" text="Time" textFill="WHITE">
+                                             <font>
+                                                <Font size="20.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </HBox>
                                     <Label fx:id="header6" alignment="CENTER" lineSpacing="5.0" prefHeight="130.0" prefWidth="457.0" text="Sample Header" textAlignment="CENTER" textFill="WHITE" wrapText="true">
                                        <font>
                                           <Font name="System Bold" size="20.0" />
                                        </font>
                                     </Label>
-                                    <Pane prefHeight="5.0" prefWidth="260.0" />
                                  </children>
                                  <opaqueInsets>
                                     <Insets />
@@ -300,12 +415,28 @@
                               </ImageView>
                               <VBox alignment="BOTTOM_CENTER" prefHeight="300.0" prefWidth="500.0" styleClass="black-gradient" stylesheets="@../css/style.css">
                                  <children>
+                                    <HBox prefHeight="43.0" prefWidth="460.0">
+                                       <children>
+                                          <Label prefHeight="43.0" prefWidth="306.0" text="Source" textFill="WHITE">
+                                             <font>
+                                                <Font size="20.0" />
+                                             </font>
+                                             <HBox.margin>
+                                                <Insets />
+                                             </HBox.margin>
+                                          </Label>
+                                          <Label alignment="CENTER_RIGHT" prefHeight="48.0" prefWidth="293.0" text="Time" textFill="WHITE">
+                                             <font>
+                                                <Font size="20.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </HBox>
                                     <Label fx:id="header7" alignment="CENTER" lineSpacing="5.0" prefHeight="130.0" prefWidth="457.0" text="Sample Header" textAlignment="CENTER" textFill="WHITE" wrapText="true">
                                        <font>
                                           <Font name="System Bold" size="20.0" />
                                        </font>
                                     </Label>
-                                    <Pane prefHeight="5.0" prefWidth="260.0" />
                                  </children>
                                  <opaqueInsets>
                                     <Insets />
@@ -332,12 +463,28 @@
                               </ImageView>
                               <VBox alignment="BOTTOM_CENTER" prefHeight="300.0" prefWidth="500.0" styleClass="black-gradient" stylesheets="@../css/style.css">
                                  <children>
+                                    <HBox prefHeight="43.0" prefWidth="460.0">
+                                       <children>
+                                          <Label prefHeight="43.0" prefWidth="306.0" text="Source" textFill="WHITE">
+                                             <font>
+                                                <Font size="20.0" />
+                                             </font>
+                                             <HBox.margin>
+                                                <Insets />
+                                             </HBox.margin>
+                                          </Label>
+                                          <Label alignment="CENTER_RIGHT" prefHeight="48.0" prefWidth="293.0" text="Time" textFill="WHITE">
+                                             <font>
+                                                <Font size="20.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </HBox>
                                     <Label fx:id="header8" alignment="CENTER" ellipsisString="" lineSpacing="5.0" prefHeight="130.0" prefWidth="457.0" text="Sample Header" textAlignment="CENTER" textFill="WHITE" wrapText="true">
                                        <font>
                                           <Font name="System Bold" size="20.0" />
                                        </font>
                                     </Label>
-                                    <Pane prefHeight="5.0" prefWidth="260.0" />
                                  </children>
                                  <opaqueInsets>
                                     <Insets />
@@ -364,12 +511,28 @@
                               </ImageView>
                               <VBox alignment="BOTTOM_CENTER" prefHeight="300.0" prefWidth="500.0" styleClass="black-gradient" stylesheets="@../css/style.css">
                                  <children>
+                                    <HBox prefHeight="43.0" prefWidth="460.0">
+                                       <children>
+                                          <Label prefHeight="43.0" prefWidth="306.0" text="Source" textFill="WHITE">
+                                             <font>
+                                                <Font size="20.0" />
+                                             </font>
+                                             <HBox.margin>
+                                                <Insets />
+                                             </HBox.margin>
+                                          </Label>
+                                          <Label alignment="CENTER_RIGHT" prefHeight="48.0" prefWidth="293.0" text="Time" textFill="WHITE">
+                                             <font>
+                                                <Font size="20.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </HBox>
                                     <Label fx:id="header9" alignment="CENTER" lineSpacing="5.0" prefHeight="130.0" prefWidth="457.0" text="Sample Header" textAlignment="CENTER" textFill="WHITE" wrapText="true">
                                        <font>
                                           <Font name="System Bold" size="20.0" />
                                        </font>
                                     </Label>
-                                    <Pane prefHeight="5.0" prefWidth="260.0" />
                                  </children>
                                  <opaqueInsets>
                                     <Insets />
