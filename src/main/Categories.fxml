@@ -18,7 +18,7 @@
    <children>
       <HBox alignment="CENTER_LEFT" prefHeight="80.0" prefWidth="1000.0" spacing="20.0" styleClass="shadow" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <Button graphicTextGap="20.0" mnemonicParsing="false" onAction="#menuHome1" styleClass="dark-background" stylesheets="@../css/style.css" text="CATEGORISE" textFill="#f6e74d">
+            <Button fx:id="backbutton" graphicTextGap="20.0" mnemonicParsing="false" onAction="#menuHome1" styleClass="dark-background" stylesheets="@../css/style.css" text="CATEGORISE" textFill="#f6e74d">
                <graphic>
                   <ImageView fitHeight="52.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
                      <image>

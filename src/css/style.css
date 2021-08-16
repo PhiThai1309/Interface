@@ -1,5 +1,5 @@
 .grey-background{
-    -fx-background-color: #DDDDDD;
+    -fx-background-color: #161616;
 }
 .border-bottom{
     -fx-border-width: 0 0 2 0;
@@ -16,6 +16,9 @@
 }
 .dark-background{
     -fx-background-color: #0D0D0D;
+}
+.darkbutton-background{
+    -fx-background-color: #000000;
 }
 .light-black-background{
     -fx-background-color: #414141;

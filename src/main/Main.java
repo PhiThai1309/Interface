@@ -14,14 +14,13 @@ public class Main extends Application {
     public void start(Stage stage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("home1.fxml"));
 
-        Scene scene = new Scene(root);
+        Scene scene = new Scene(root, 800, 800);
 
         scene.getStylesheets().add("css/style.css");
         stage.setTitle("News Application");
         stage.setResizable(true);
         stage.getIcons().add(new Image("image/book.jpg"));
         stage.setScene(scene);
-        stage.setMaximized(true);
         stage.setMinHeight(700);
         stage.setMinWidth(870);
         //remove the app bar
