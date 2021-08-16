@@ -1,12 +1,9 @@
 package main;
 
-import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
-import javafx.geometry.Insets;
-import javafx.geometry.Rectangle2D;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -16,18 +13,16 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.FlowPane;
 import javafx.scene.layout.GridPane;
-import javafx.scene.layout.Pane;
-import javafx.scene.layout.VBox;
-import javafx.stage.Screen;
 import javafx.stage.Stage;
-import model.News;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.ResourceBundle;
 
 public class Controller implements Initializable {
     @FXML private GridPane newsGrid;
@@ -182,39 +177,16 @@ public class Controller implements Initializable {
         }
     }
 
-    private Stage stage;
-    private Scene scene;
-    private Parent root;
-
-    public void menuCategories(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("Categories.fxml"));
-        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-        scene = new Scene(root);
-        stage.setScene(scene);
-        stage.setMaximized(true);
-        stage.show();
-    }
-
-    public void article(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("NewsTemplate.fxml"));
-        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-        scene = new Scene(root);
-        stage.setScene(scene);
-        stage.setMaximized(true);
-        stage.show();
-    }
-
     @FXML private Button menu;
 
-    public void cat() throws  Exception {
-        root = FXMLLoader.load(getClass().getResource("Categories.fxml"));
+    public void changeRoot(ActionEvent event) throws  IOException {
+        try {
+            Parent root2 = FXMLLoader.load(getClass().getResource("Categories.fxml"));
 
-        Stage window = (Stage) menu.getScene().getWindow();
-        window.setMaximized(true);
-        window.setScene(new Scene(root, 800, 800));
-        Rectangle2D primScreenBounds = Screen.getPrimary().getVisualBounds();
-        window.setX((primScreenBounds.getWidth() - window.getWidth()) / 2);
-        window.setY((primScreenBounds.getHeight() - window.getHeight()) / 2);
+            menu.getScene().setRoot(root2);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
 }

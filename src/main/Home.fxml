@@ -23,7 +23,7 @@
             <URL value="@../css/style.css" />
          </stylesheets>
          <children>
-            <Button fx:id="menu" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#cat" prefHeight="105.0" prefWidth="161.0" styleClass="darkbutton-background" stylesheets="@../css/style.css" textFill="TRANSPARENT" HBox.hgrow="ALWAYS">
+            <Button fx:id="menu" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#changeRoot" prefHeight="105.0" prefWidth="161.0" styleClass="darkbutton-background" stylesheets="@../css/style.css" textFill="TRANSPARENT" HBox.hgrow="ALWAYS">
                <graphic>
                   <ImageView blendMode="SCREEN" fitHeight="46.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -68,7 +68,7 @@
          <content>
             <FlowPane alignment="TOP_CENTER" columnHalignment="CENTER" hgap="20.0" prefHeight="783.0" prefWidth="1030.0" styleClass="grey-background" stylesheets="@../css/style.css" vgap="20.0">
                <children>
-                  <Button fx:id="button" mnemonicParsing="false" onAction="#article" prefHeight="300.0" prefWidth="500.0" styleClass="shadow" stylesheets="@../css/style.css" textAlignment="CENTER" textFill="TRANSPARENT">
+                  <Button fx:id="button" mnemonicParsing="false" prefHeight="300.0" prefWidth="500.0" styleClass="shadow" stylesheets="@../css/style.css" textAlignment="CENTER" textFill="TRANSPARENT">
                      <graphic>
                         <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="500.0" style="-fx-background-radius: 50;" styleClass="shadow" stylesheets="@../css/style.css">
                            <children>
