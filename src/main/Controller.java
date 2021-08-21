@@ -4,16 +4,13 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
-import javafx.scene.Node;
 import javafx.scene.Parent;
-import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.FlowPane;
 import javafx.scene.layout.GridPane;
-import javafx.stage.Stage;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -177,12 +174,12 @@ public class Controller implements Initializable {
         }
     }
 
+    //Switching scene from home page to menu
     @FXML private Button menu;
 
     public void changeRoot(ActionEvent event) throws  IOException {
         try {
             Parent root2 = FXMLLoader.load(getClass().getResource("Categories.fxml"));
-
             menu.getScene().setRoot(root2);
         } catch (IOException e) {
             e.printStackTrace();
